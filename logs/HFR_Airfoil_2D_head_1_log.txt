@@ -1,0 +1,36 @@
+========================================
+2026-01-25 10:56:20.855509--Experiment Parameter Record Table
+========================================
+
+lr                       : 0.001
+epochs                   : 500
+weight_decay             : 0.0001
+n_hidden                 : 128
+n_layers                 : 8
+n_heads                  : 1
+batch_size               : 4
+max_grad_norm            : 0.1
+gpu                      : 0
+downsamplex              : 1
+downsampley              : 1
+mlp_ratio                : 1
+dropout                  : 0.0
+unified_pos              : 0
+ref                      : 8
+freq_num                 : 128
+eval                     : 0
+save_name                : HFR_Airfoil_2D
+data_path                : ./data/airfoil/naca
+ntrain                   : 1000
+
+========================================
+Epoch [050/500] Train: 0.043443 | Val L2: 0.040581 | Time: 21.27s
+Epoch [100/500] Train: 0.033195 | Val L2: 0.037521 | Time: 21.02s
+Epoch [150/500] Train: 0.022751 | Val L2: 0.018524 | Time: 20.87s
+Epoch [200/500] Train: 0.018965 | Val L2: 0.024124 | Time: 20.80s
+Epoch [250/500] Train: 0.014950 | Val L2: 0.013719 | Time: 20.83s
+Epoch [300/500] Train: 0.010640 | Val L2: 0.011692 | Time: 20.82s
+Epoch [350/500] Train: 0.008286 | Val L2: 0.008599 | Time: 20.81s
+Epoch [400/500] Train: 0.006064 | Val L2: 0.007460 | Time: 20.85s
+Epoch [450/500] Train: 0.004313 | Val L2: 0.006140 | Time: 20.80s
+Epoch [500/500] Train: 0.003720 | Val L2: 0.005497 | Time: 20.68s

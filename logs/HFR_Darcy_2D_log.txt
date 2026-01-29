@@ -1,0 +1,6026 @@
+========================================
+2026-01-27 18:49:09.568738--Experiment Parameter Record Table
+========================================
+
+lr                       : 0.001
+epochs                   : 500
+weight_decay             : 0.0001
+act                      : gelu
+n_hidden                 : 128
+n_layers                 : 8
+n_heads                  : 4
+batch_size               : 4
+max_grad_norm            : 0.1
+downsample               : 5
+mlp_ratio                : 1
+dropout                  : 0.0
+ntrain                   : 1000
+unified_pos              : 1
+ref                      : 8
+freq_num                 : 128
+eval                     : 0
+save_name                : HFR_Darcy_2D
+data_path                : ./data/darcy
+const_training_loss      : 0
+
+========================================
+Epoch [001/500]
+Train L2 Loss: 0.181233
+Train Deriv Loss: 1.039962
+val_loss: 0.125455
+val_linf: 0.207025
+LR: 0.000040
+Epoch time: 21.93 seconds, Average time: 21.93 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.125455, after 1 epochs
+
+
+Epoch [002/500]
+Train L2 Loss: 0.122058
+Train Deriv Loss: 0.649860
+val_loss: 0.107557
+val_linf: 0.176923
+LR: 0.000040
+Epoch time: 16.45 seconds, Average time: 19.19 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.107557, after 1 epochs
+
+
+Epoch [003/500]
+Train L2 Loss: 0.109485
+Train Deriv Loss: 0.561302
+val_loss: 0.098191
+val_linf: 0.159777
+LR: 0.000041
+Epoch time: 16.51 seconds, Average time: 18.30 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.098191, after 1 epochs
+
+
+Epoch [004/500]
+Train L2 Loss: 0.095513
+Train Deriv Loss: 0.498845
+val_loss: 0.086798
+val_linf: 0.145877
+LR: 0.000042
+Epoch time: 16.44 seconds, Average time: 17.83 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.086798, after 1 epochs
+
+
+Epoch [005/500]
+Train L2 Loss: 0.068225
+Train Deriv Loss: 0.396017
+val_loss: 0.068833
+val_linf: 0.121597
+LR: 0.000043
+Epoch time: 16.78 seconds, Average time: 17.62 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.068833, after 1 epochs
+
+
+Epoch [006/500]
+Train L2 Loss: 0.058931
+Train Deriv Loss: 0.360729
+val_loss: 0.050594
+val_linf: 0.091877
+LR: 0.000044
+Epoch time: 16.47 seconds, Average time: 17.43 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.050594, after 1 epochs
+
+
+Epoch [007/500]
+Train L2 Loss: 0.050589
+Train Deriv Loss: 0.325506
+val_loss: 0.050293
+val_linf: 0.091708
+LR: 0.000045
+Epoch time: 16.95 seconds, Average time: 17.36 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.050293, after 1 epochs
+
+
+Epoch [008/500]
+Train L2 Loss: 0.049082
+Train Deriv Loss: 0.317340
+val_loss: 0.045066
+val_linf: 0.083136
+LR: 0.000047
+Epoch time: 16.64 seconds, Average time: 17.27 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.045066, after 1 epochs
+
+
+Epoch [009/500]
+Train L2 Loss: 0.041607
+Train Deriv Loss: 0.288562
+val_loss: 0.038177
+val_linf: 0.077646
+LR: 0.000049
+Epoch time: 16.16 seconds, Average time: 17.15 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.038177, after 1 epochs
+
+
+Epoch [010/500]
+Train L2 Loss: 0.039729
+Train Deriv Loss: 0.280636
+val_loss: 0.030319
+val_linf: 0.068312
+LR: 0.000050
+Epoch time: 16.12 seconds, Average time: 17.05 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.030319, after 1 epochs
+
+
+Epoch [011/500]
+Train L2 Loss: 0.037178
+Train Deriv Loss: 0.264561
+val_loss: 0.043915
+val_linf: 0.078051
+LR: 0.000053
+Epoch time: 16.19 seconds, Average time: 16.97 seconds
+================================================================
+
+-> Current best: Epoch 10, Val Score = 0.030319
+
+
+Epoch [012/500]
+Train L2 Loss: 0.038510
+Train Deriv Loss: 0.262546
+val_loss: 0.035223
+val_linf: 0.068255
+LR: 0.000055
+Epoch time: 16.14 seconds, Average time: 16.90 seconds
+================================================================
+
+-> Current best: Epoch 10, Val Score = 0.030319
+
+
+Epoch [013/500]
+Train L2 Loss: 0.033412
+Train Deriv Loss: 0.245962
+val_loss: 0.028964
+val_linf: 0.061911
+LR: 0.000058
+Epoch time: 16.13 seconds, Average time: 16.84 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.028964, after 3 epochs
+
+
+Epoch [014/500]
+Train L2 Loss: 0.032332
+Train Deriv Loss: 0.232380
+val_loss: 0.025701
+val_linf: 0.058670
+LR: 0.000060
+Epoch time: 16.11 seconds, Average time: 16.79 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.025701, after 1 epochs
+
+
+Epoch [015/500]
+Train L2 Loss: 0.030800
+Train Deriv Loss: 0.224371
+val_loss: 0.026986
+val_linf: 0.055973
+LR: 0.000063
+Epoch time: 16.12 seconds, Average time: 16.74 seconds
+================================================================
+
+-> Current best: Epoch 14, Val Score = 0.025701
+
+
+Epoch [016/500]
+Train L2 Loss: 0.031050
+Train Deriv Loss: 0.219679
+val_loss: 0.032973
+val_linf: 0.057637
+LR: 0.000067
+Epoch time: 16.13 seconds, Average time: 16.70 seconds
+================================================================
+
+-> Current best: Epoch 14, Val Score = 0.025701
+
+
+Epoch [017/500]
+Train L2 Loss: 0.031052
+Train Deriv Loss: 0.212271
+val_loss: 0.033633
+val_linf: 0.058378
+LR: 0.000070
+Epoch time: 16.81 seconds, Average time: 16.71 seconds
+================================================================
+
+-> Current best: Epoch 14, Val Score = 0.025701
+
+
+Epoch [018/500]
+Train L2 Loss: 0.030702
+Train Deriv Loss: 0.215655
+val_loss: 0.032959
+val_linf: 0.060414
+LR: 0.000074
+Epoch time: 16.77 seconds, Average time: 16.71 seconds
+================================================================
+
+-> Current best: Epoch 14, Val Score = 0.025701
+
+
+Epoch [019/500]
+Train L2 Loss: 0.031150
+Train Deriv Loss: 0.212910
+val_loss: 0.024540
+val_linf: 0.052842
+LR: 0.000078
+Epoch time: 16.48 seconds, Average time: 16.70 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.024540, after 5 epochs
+
+
+Epoch [020/500]
+Train L2 Loss: 0.029838
+Train Deriv Loss: 0.206383
+val_loss: 0.028343
+val_linf: 0.056753
+LR: 0.000082
+Epoch time: 16.45 seconds, Average time: 16.69 seconds
+================================================================
+
+-> Current best: Epoch 19, Val Score = 0.024540
+
+
+Epoch [021/500]
+Train L2 Loss: 0.029029
+Train Deriv Loss: 0.203485
+val_loss: 0.037218
+val_linf: 0.062671
+LR: 0.000086
+Epoch time: 16.46 seconds, Average time: 16.68 seconds
+================================================================
+
+-> Current best: Epoch 19, Val Score = 0.024540
+
+
+Epoch [022/500]
+Train L2 Loss: 0.027211
+Train Deriv Loss: 0.193621
+val_loss: 0.022411
+val_linf: 0.048231
+LR: 0.000090
+Epoch time: 16.51 seconds, Average time: 16.67 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.022411, after 3 epochs
+
+
+Epoch [023/500]
+Train L2 Loss: 0.027790
+Train Deriv Loss: 0.192821
+val_loss: 0.026096
+val_linf: 0.052915
+LR: 0.000095
+Epoch time: 16.18 seconds, Average time: 16.65 seconds
+================================================================
+
+-> Current best: Epoch 22, Val Score = 0.022411
+
+
+Epoch [024/500]
+Train L2 Loss: 0.026573
+Train Deriv Loss: 0.189229
+val_loss: 0.023484
+val_linf: 0.049293
+LR: 0.000099
+Epoch time: 16.17 seconds, Average time: 16.63 seconds
+================================================================
+
+-> Current best: Epoch 22, Val Score = 0.022411
+
+
+Epoch [025/500]
+Train L2 Loss: 0.028667
+Train Deriv Loss: 0.194302
+val_loss: 0.022423
+val_linf: 0.047028
+LR: 0.000104
+Epoch time: 16.17 seconds, Average time: 16.61 seconds
+================================================================
+
+-> Current best: Epoch 22, Val Score = 0.022411
+
+
+Epoch [026/500]
+Train L2 Loss: 0.026937
+Train Deriv Loss: 0.187154
+val_loss: 0.027701
+val_linf: 0.049594
+LR: 0.000109
+Epoch time: 16.15 seconds, Average time: 16.59 seconds
+================================================================
+
+-> Current best: Epoch 22, Val Score = 0.022411
+
+
+Epoch [027/500]
+Train L2 Loss: 0.026334
+Train Deriv Loss: 0.181202
+val_loss: 0.025334
+val_linf: 0.048775
+LR: 0.000115
+Epoch time: 16.16 seconds, Average time: 16.58 seconds
+================================================================
+
+-> Current best: Epoch 22, Val Score = 0.022411
+
+
+Epoch [028/500]
+Train L2 Loss: 0.026708
+Train Deriv Loss: 0.186468
+val_loss: 0.028199
+val_linf: 0.049182
+LR: 0.000120
+Epoch time: 16.16 seconds, Average time: 16.56 seconds
+================================================================
+
+-> Current best: Epoch 22, Val Score = 0.022411
+
+
+Epoch [029/500]
+Train L2 Loss: 0.026415
+Train Deriv Loss: 0.182365
+val_loss: 0.021217
+val_linf: 0.044622
+LR: 0.000126
+Epoch time: 16.71 seconds, Average time: 16.57 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.021217, after 7 epochs
+
+
+Epoch [030/500]
+Train L2 Loss: 0.026602
+Train Deriv Loss: 0.179879
+val_loss: 0.029182
+val_linf: 0.050185
+LR: 0.000132
+Epoch time: 16.20 seconds, Average time: 16.55 seconds
+================================================================
+
+-> Current best: Epoch 29, Val Score = 0.021217
+
+
+Epoch [031/500]
+Train L2 Loss: 0.029707
+Train Deriv Loss: 0.193197
+val_loss: 0.027125
+val_linf: 0.048318
+LR: 0.000138
+Epoch time: 16.17 seconds, Average time: 16.54 seconds
+================================================================
+
+-> Current best: Epoch 29, Val Score = 0.021217
+
+
+Epoch [032/500]
+Train L2 Loss: 0.025457
+Train Deriv Loss: 0.183102
+val_loss: 0.027978
+val_linf: 0.052485
+LR: 0.000144
+Epoch time: 16.17 seconds, Average time: 16.53 seconds
+================================================================
+
+-> Current best: Epoch 29, Val Score = 0.021217
+
+
+Epoch [033/500]
+Train L2 Loss: 0.026325
+Train Deriv Loss: 0.177140
+val_loss: 0.023615
+val_linf: 0.047677
+LR: 0.000150
+Epoch time: 16.16 seconds, Average time: 16.52 seconds
+================================================================
+
+-> Current best: Epoch 29, Val Score = 0.021217
+
+
+Epoch [034/500]
+Train L2 Loss: 0.023934
+Train Deriv Loss: 0.173038
+val_loss: 0.022993
+val_linf: 0.044843
+LR: 0.000157
+Epoch time: 16.17 seconds, Average time: 16.51 seconds
+================================================================
+
+-> Current best: Epoch 29, Val Score = 0.021217
+
+
+Epoch [035/500]
+Train L2 Loss: 0.027791
+Train Deriv Loss: 0.178160
+val_loss: 0.023673
+val_linf: 0.044507
+LR: 0.000163
+Epoch time: 16.16 seconds, Average time: 16.50 seconds
+================================================================
+
+-> Current best: Epoch 29, Val Score = 0.021217
+
+
+Epoch [036/500]
+Train L2 Loss: 0.026833
+Train Deriv Loss: 0.179205
+val_loss: 0.022770
+val_linf: 0.044197
+LR: 0.000170
+Epoch time: 16.16 seconds, Average time: 16.49 seconds
+================================================================
+
+-> Current best: Epoch 29, Val Score = 0.021217
+
+
+Epoch [037/500]
+Train L2 Loss: 0.025599
+Train Deriv Loss: 0.173495
+val_loss: 0.025218
+val_linf: 0.045836
+LR: 0.000177
+Epoch time: 16.20 seconds, Average time: 16.48 seconds
+================================================================
+
+-> Current best: Epoch 29, Val Score = 0.021217
+
+
+Epoch [038/500]
+Train L2 Loss: 0.024645
+Train Deriv Loss: 0.169653
+val_loss: 0.023506
+val_linf: 0.043741
+LR: 0.000184
+Epoch time: 16.21 seconds, Average time: 16.47 seconds
+================================================================
+
+-> Current best: Epoch 29, Val Score = 0.021217
+
+
+Epoch [039/500]
+Train L2 Loss: 0.025726
+Train Deriv Loss: 0.172894
+val_loss: 0.034488
+val_linf: 0.051199
+LR: 0.000191
+Epoch time: 16.19 seconds, Average time: 16.47 seconds
+================================================================
+
+-> Current best: Epoch 29, Val Score = 0.021217
+
+
+Epoch [040/500]
+Train L2 Loss: 0.025916
+Train Deriv Loss: 0.172428
+val_loss: 0.028477
+val_linf: 0.048475
+LR: 0.000199
+Epoch time: 16.30 seconds, Average time: 16.46 seconds
+================================================================
+
+-> Current best: Epoch 29, Val Score = 0.021217
+
+
+Epoch [041/500]
+Train L2 Loss: 0.026409
+Train Deriv Loss: 0.169741
+val_loss: 0.023047
+val_linf: 0.041909
+LR: 0.000206
+Epoch time: 16.18 seconds, Average time: 16.46 seconds
+================================================================
+
+-> Current best: Epoch 29, Val Score = 0.021217
+
+
+Epoch [042/500]
+Train L2 Loss: 0.024712
+Train Deriv Loss: 0.166960
+val_loss: 0.029514
+val_linf: 0.049406
+LR: 0.000214
+Epoch time: 16.19 seconds, Average time: 16.45 seconds
+================================================================
+
+-> Current best: Epoch 29, Val Score = 0.021217
+
+
+Epoch [043/500]
+Train L2 Loss: 0.026656
+Train Deriv Loss: 0.176969
+val_loss: 0.024726
+val_linf: 0.043149
+LR: 0.000222
+Epoch time: 16.19 seconds, Average time: 16.44 seconds
+================================================================
+
+-> Current best: Epoch 29, Val Score = 0.021217
+
+
+Epoch [044/500]
+Train L2 Loss: 0.024066
+Train Deriv Loss: 0.158284
+val_loss: 0.023654
+val_linf: 0.043742
+LR: 0.000230
+Epoch time: 16.33 seconds, Average time: 16.44 seconds
+================================================================
+
+-> Current best: Epoch 29, Val Score = 0.021217
+
+
+Epoch [045/500]
+Train L2 Loss: 0.025950
+Train Deriv Loss: 0.170778
+val_loss: 0.029354
+val_linf: 0.047554
+LR: 0.000238
+Epoch time: 16.49 seconds, Average time: 16.44 seconds
+================================================================
+
+-> Current best: Epoch 29, Val Score = 0.021217
+
+
+Epoch [046/500]
+Train L2 Loss: 0.024618
+Train Deriv Loss: 0.166795
+val_loss: 0.026778
+val_linf: 0.047125
+LR: 0.000246
+Epoch time: 16.34 seconds, Average time: 16.44 seconds
+================================================================
+
+-> Current best: Epoch 29, Val Score = 0.021217
+
+
+Epoch [047/500]
+Train L2 Loss: 0.025838
+Train Deriv Loss: 0.164920
+val_loss: 0.025725
+val_linf: 0.045025
+LR: 0.000254
+Epoch time: 16.27 seconds, Average time: 16.44 seconds
+================================================================
+
+-> Current best: Epoch 29, Val Score = 0.021217
+
+
+Epoch [048/500]
+Train L2 Loss: 0.025458
+Train Deriv Loss: 0.169391
+val_loss: 0.023987
+val_linf: 0.044084
+LR: 0.000263
+Epoch time: 16.67 seconds, Average time: 16.44 seconds
+================================================================
+
+-> Current best: Epoch 29, Val Score = 0.021217
+
+
+Epoch [049/500]
+Train L2 Loss: 0.024982
+Train Deriv Loss: 0.166673
+val_loss: 0.021188
+val_linf: 0.038850
+LR: 0.000271
+Epoch time: 16.52 seconds, Average time: 16.44 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.021188, after 20 epochs
+
+
+Epoch [050/500]
+Train L2 Loss: 0.025927
+Train Deriv Loss: 0.165452
+val_loss: 0.026882
+val_linf: 0.049371
+LR: 0.000280
+Epoch time: 16.22 seconds, Average time: 16.44 seconds
+================================================================
+
+-> Current best: Epoch 49, Val Score = 0.021188
+
+
+Epoch [051/500]
+Train L2 Loss: 0.023639
+Train Deriv Loss: 0.155056
+val_loss: 0.029929
+val_linf: 0.046314
+LR: 0.000289
+Epoch time: 16.20 seconds, Average time: 16.43 seconds
+================================================================
+
+-> Current best: Epoch 49, Val Score = 0.021188
+
+
+Epoch [052/500]
+Train L2 Loss: 0.024830
+Train Deriv Loss: 0.163874
+val_loss: 0.024787
+val_linf: 0.041937
+LR: 0.000298
+Epoch time: 16.21 seconds, Average time: 16.43 seconds
+================================================================
+
+-> Current best: Epoch 49, Val Score = 0.021188
+
+
+Epoch [053/500]
+Train L2 Loss: 0.023071
+Train Deriv Loss: 0.157067
+val_loss: 0.024787
+val_linf: 0.041222
+LR: 0.000307
+Epoch time: 16.20 seconds, Average time: 16.43 seconds
+================================================================
+
+-> Current best: Epoch 49, Val Score = 0.021188
+
+
+Epoch [054/500]
+Train L2 Loss: 0.023235
+Train Deriv Loss: 0.156434
+val_loss: 0.023402
+val_linf: 0.040024
+LR: 0.000316
+Epoch time: 16.28 seconds, Average time: 16.42 seconds
+================================================================
+
+-> Current best: Epoch 49, Val Score = 0.021188
+
+
+Epoch [055/500]
+Train L2 Loss: 0.023773
+Train Deriv Loss: 0.152291
+val_loss: 0.022527
+val_linf: 0.039830
+LR: 0.000325
+Epoch time: 16.17 seconds, Average time: 16.42 seconds
+================================================================
+
+-> Current best: Epoch 49, Val Score = 0.021188
+
+
+Epoch [056/500]
+Train L2 Loss: 0.023503
+Train Deriv Loss: 0.157083
+val_loss: 0.020774
+val_linf: 0.038017
+LR: 0.000334
+Epoch time: 16.18 seconds, Average time: 16.41 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.020774, after 7 epochs
+
+
+Epoch [057/500]
+Train L2 Loss: 0.023285
+Train Deriv Loss: 0.157125
+val_loss: 0.023616
+val_linf: 0.037899
+LR: 0.000343
+Epoch time: 16.22 seconds, Average time: 16.41 seconds
+================================================================
+
+-> Current best: Epoch 56, Val Score = 0.020774
+
+
+Epoch [058/500]
+Train L2 Loss: 0.022361
+Train Deriv Loss: 0.150456
+val_loss: 0.025102
+val_linf: 0.040671
+LR: 0.000353
+Epoch time: 16.18 seconds, Average time: 16.41 seconds
+================================================================
+
+-> Current best: Epoch 56, Val Score = 0.020774
+
+
+Epoch [059/500]
+Train L2 Loss: 0.024560
+Train Deriv Loss: 0.157639
+val_loss: 0.020516
+val_linf: 0.039737
+LR: 0.000362
+Epoch time: 16.16 seconds, Average time: 16.40 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.020516, after 3 epochs
+
+
+Epoch [060/500]
+Train L2 Loss: 0.021169
+Train Deriv Loss: 0.142724
+val_loss: 0.022403
+val_linf: 0.041258
+LR: 0.000372
+Epoch time: 16.18 seconds, Average time: 16.40 seconds
+================================================================
+
+-> Current best: Epoch 59, Val Score = 0.020516
+
+
+Epoch [061/500]
+Train L2 Loss: 0.021743
+Train Deriv Loss: 0.146601
+val_loss: 0.018906
+val_linf: 0.035907
+LR: 0.000381
+Epoch time: 16.18 seconds, Average time: 16.39 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.018906, after 2 epochs
+
+
+Epoch [062/500]
+Train L2 Loss: 0.022884
+Train Deriv Loss: 0.153160
+val_loss: 0.028405
+val_linf: 0.043605
+LR: 0.000391
+Epoch time: 16.17 seconds, Average time: 16.39 seconds
+================================================================
+
+-> Current best: Epoch 61, Val Score = 0.018906
+
+
+Epoch [063/500]
+Train L2 Loss: 0.021337
+Train Deriv Loss: 0.146738
+val_loss: 0.020617
+val_linf: 0.037484
+LR: 0.000401
+Epoch time: 16.17 seconds, Average time: 16.39 seconds
+================================================================
+
+-> Current best: Epoch 61, Val Score = 0.018906
+
+
+Epoch [064/500]
+Train L2 Loss: 0.023033
+Train Deriv Loss: 0.151177
+val_loss: 0.016401
+val_linf: 0.033861
+LR: 0.000410
+Epoch time: 16.14 seconds, Average time: 16.38 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.016401, after 3 epochs
+
+
+Epoch [065/500]
+Train L2 Loss: 0.024604
+Train Deriv Loss: 0.157787
+val_loss: 0.022659
+val_linf: 0.037143
+LR: 0.000420
+Epoch time: 16.20 seconds, Average time: 16.38 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [066/500]
+Train L2 Loss: 0.020981
+Train Deriv Loss: 0.143846
+val_loss: 0.019346
+val_linf: 0.035562
+LR: 0.000430
+Epoch time: 16.25 seconds, Average time: 16.38 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [067/500]
+Train L2 Loss: 0.020969
+Train Deriv Loss: 0.142092
+val_loss: 0.021205
+val_linf: 0.037717
+LR: 0.000440
+Epoch time: 16.17 seconds, Average time: 16.38 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [068/500]
+Train L2 Loss: 0.021593
+Train Deriv Loss: 0.146777
+val_loss: 0.018196
+val_linf: 0.033727
+LR: 0.000450
+Epoch time: 16.23 seconds, Average time: 16.37 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [069/500]
+Train L2 Loss: 0.021763
+Train Deriv Loss: 0.149023
+val_loss: 0.019764
+val_linf: 0.039733
+LR: 0.000460
+Epoch time: 16.19 seconds, Average time: 16.37 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [070/500]
+Train L2 Loss: 0.021814
+Train Deriv Loss: 0.149797
+val_loss: 0.023618
+val_linf: 0.041747
+LR: 0.000470
+Epoch time: 16.17 seconds, Average time: 16.37 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [071/500]
+Train L2 Loss: 0.022062
+Train Deriv Loss: 0.145547
+val_loss: 0.017414
+val_linf: 0.033877
+LR: 0.000480
+Epoch time: 16.16 seconds, Average time: 16.37 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [072/500]
+Train L2 Loss: 0.020690
+Train Deriv Loss: 0.136367
+val_loss: 0.019122
+val_linf: 0.035495
+LR: 0.000490
+Epoch time: 16.17 seconds, Average time: 16.36 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [073/500]
+Train L2 Loss: 0.020352
+Train Deriv Loss: 0.136460
+val_loss: 0.020087
+val_linf: 0.037262
+LR: 0.000500
+Epoch time: 16.18 seconds, Average time: 16.36 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [074/500]
+Train L2 Loss: 0.020795
+Train Deriv Loss: 0.141678
+val_loss: 0.029754
+val_linf: 0.047806
+LR: 0.000510
+Epoch time: 16.17 seconds, Average time: 16.36 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [075/500]
+Train L2 Loss: 0.020019
+Train Deriv Loss: 0.139169
+val_loss: 0.018453
+val_linf: 0.035895
+LR: 0.000520
+Epoch time: 16.20 seconds, Average time: 16.36 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [076/500]
+Train L2 Loss: 0.021001
+Train Deriv Loss: 0.134908
+val_loss: 0.021256
+val_linf: 0.038204
+LR: 0.000530
+Epoch time: 16.21 seconds, Average time: 16.35 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [077/500]
+Train L2 Loss: 0.020198
+Train Deriv Loss: 0.134719
+val_loss: 0.017066
+val_linf: 0.035040
+LR: 0.000540
+Epoch time: 16.21 seconds, Average time: 16.35 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [078/500]
+Train L2 Loss: 0.021107
+Train Deriv Loss: 0.141762
+val_loss: 0.030560
+val_linf: 0.044613
+LR: 0.000550
+Epoch time: 16.20 seconds, Average time: 16.35 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [079/500]
+Train L2 Loss: 0.021911
+Train Deriv Loss: 0.143592
+val_loss: 0.023527
+val_linf: 0.038578
+LR: 0.000560
+Epoch time: 16.20 seconds, Average time: 16.35 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [080/500]
+Train L2 Loss: 0.020383
+Train Deriv Loss: 0.136800
+val_loss: 0.021552
+val_linf: 0.038713
+LR: 0.000570
+Epoch time: 16.20 seconds, Average time: 16.35 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [081/500]
+Train L2 Loss: 0.020169
+Train Deriv Loss: 0.135216
+val_loss: 0.019291
+val_linf: 0.037392
+LR: 0.000580
+Epoch time: 16.18 seconds, Average time: 16.34 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [082/500]
+Train L2 Loss: 0.021240
+Train Deriv Loss: 0.139560
+val_loss: 0.016823
+val_linf: 0.033046
+LR: 0.000590
+Epoch time: 16.18 seconds, Average time: 16.34 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [083/500]
+Train L2 Loss: 0.022017
+Train Deriv Loss: 0.139109
+val_loss: 0.024986
+val_linf: 0.039642
+LR: 0.000600
+Epoch time: 16.19 seconds, Average time: 16.34 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [084/500]
+Train L2 Loss: 0.020742
+Train Deriv Loss: 0.135576
+val_loss: 0.026301
+val_linf: 0.042440
+LR: 0.000610
+Epoch time: 16.20 seconds, Average time: 16.34 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [085/500]
+Train L2 Loss: 0.021042
+Train Deriv Loss: 0.142613
+val_loss: 0.020359
+val_linf: 0.036768
+LR: 0.000620
+Epoch time: 16.24 seconds, Average time: 16.34 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [086/500]
+Train L2 Loss: 0.021559
+Train Deriv Loss: 0.142618
+val_loss: 0.019502
+val_linf: 0.035188
+LR: 0.000630
+Epoch time: 16.23 seconds, Average time: 16.34 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [087/500]
+Train L2 Loss: 0.019883
+Train Deriv Loss: 0.127564
+val_loss: 0.019749
+val_linf: 0.034976
+LR: 0.000639
+Epoch time: 16.20 seconds, Average time: 16.33 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [088/500]
+Train L2 Loss: 0.020035
+Train Deriv Loss: 0.136282
+val_loss: 0.018709
+val_linf: 0.034757
+LR: 0.000649
+Epoch time: 16.20 seconds, Average time: 16.33 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [089/500]
+Train L2 Loss: 0.020617
+Train Deriv Loss: 0.134139
+val_loss: 0.022792
+val_linf: 0.036573
+LR: 0.000659
+Epoch time: 16.23 seconds, Average time: 16.33 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [090/500]
+Train L2 Loss: 0.019944
+Train Deriv Loss: 0.132303
+val_loss: 0.017596
+val_linf: 0.032072
+LR: 0.000668
+Epoch time: 16.73 seconds, Average time: 16.34 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [091/500]
+Train L2 Loss: 0.020942
+Train Deriv Loss: 0.136013
+val_loss: 0.023352
+val_linf: 0.038949
+LR: 0.000678
+Epoch time: 16.81 seconds, Average time: 16.34 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [092/500]
+Train L2 Loss: 0.019393
+Train Deriv Loss: 0.128341
+val_loss: 0.019487
+val_linf: 0.037277
+LR: 0.000687
+Epoch time: 16.71 seconds, Average time: 16.35 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [093/500]
+Train L2 Loss: 0.020876
+Train Deriv Loss: 0.136701
+val_loss: 0.016926
+val_linf: 0.032897
+LR: 0.000697
+Epoch time: 16.64 seconds, Average time: 16.35 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [094/500]
+Train L2 Loss: 0.018993
+Train Deriv Loss: 0.123449
+val_loss: 0.019550
+val_linf: 0.033265
+LR: 0.000706
+Epoch time: 16.57 seconds, Average time: 16.35 seconds
+================================================================
+
+-> Current best: Epoch 64, Val Score = 0.016401
+
+
+Epoch [095/500]
+Train L2 Loss: 0.018300
+Train Deriv Loss: 0.126294
+val_loss: 0.015762
+val_linf: 0.031673
+LR: 0.000715
+Epoch time: 16.70 seconds, Average time: 16.35 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.015762, after 31 epochs
+
+
+Epoch [096/500]
+Train L2 Loss: 0.017745
+Train Deriv Loss: 0.124711
+val_loss: 0.016252
+val_linf: 0.032420
+LR: 0.000724
+Epoch time: 16.50 seconds, Average time: 16.36 seconds
+================================================================
+
+-> Current best: Epoch 95, Val Score = 0.015762
+
+
+Epoch [097/500]
+Train L2 Loss: 0.019921
+Train Deriv Loss: 0.134652
+val_loss: 0.015354
+val_linf: 0.032773
+LR: 0.000733
+Epoch time: 16.59 seconds, Average time: 16.36 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.015354, after 2 epochs
+
+
+Epoch [098/500]
+Train L2 Loss: 0.019802
+Train Deriv Loss: 0.130839
+val_loss: 0.013801
+val_linf: 0.028533
+LR: 0.000742
+Epoch time: 16.53 seconds, Average time: 16.36 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.013801, after 1 epochs
+
+
+Epoch [099/500]
+Train L2 Loss: 0.019562
+Train Deriv Loss: 0.127311
+val_loss: 0.012321
+val_linf: 0.028805
+LR: 0.000751
+Epoch time: 16.43 seconds, Average time: 16.36 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.012321, after 1 epochs
+
+
+Epoch [100/500]
+Train L2 Loss: 0.019164
+Train Deriv Loss: 0.128643
+val_loss: 0.014139
+val_linf: 0.029256
+LR: 0.000760
+Epoch time: 16.49 seconds, Average time: 16.36 seconds
+================================================================
+
+-> Current best: Epoch 99, Val Score = 0.012321
+
+
+Epoch [101/500]
+Train L2 Loss: 0.017408
+Train Deriv Loss: 0.121955
+val_loss: 0.018777
+val_linf: 0.033503
+LR: 0.000769
+Epoch time: 16.46 seconds, Average time: 16.36 seconds
+================================================================
+
+-> Current best: Epoch 99, Val Score = 0.012321
+
+
+Epoch [102/500]
+Train L2 Loss: 0.017816
+Train Deriv Loss: 0.122114
+val_loss: 0.016038
+val_linf: 0.032878
+LR: 0.000777
+Epoch time: 16.46 seconds, Average time: 16.36 seconds
+================================================================
+
+-> Current best: Epoch 99, Val Score = 0.012321
+
+
+Epoch [103/500]
+Train L2 Loss: 0.018570
+Train Deriv Loss: 0.127640
+val_loss: 0.017292
+val_linf: 0.032447
+LR: 0.000786
+Epoch time: 16.51 seconds, Average time: 16.37 seconds
+================================================================
+
+-> Current best: Epoch 99, Val Score = 0.012321
+
+
+Epoch [104/500]
+Train L2 Loss: 0.017462
+Train Deriv Loss: 0.119706
+val_loss: 0.021201
+val_linf: 0.035464
+LR: 0.000794
+Epoch time: 16.49 seconds, Average time: 16.37 seconds
+================================================================
+
+-> Current best: Epoch 99, Val Score = 0.012321
+
+
+Epoch [105/500]
+Train L2 Loss: 0.017851
+Train Deriv Loss: 0.124896
+val_loss: 0.021573
+val_linf: 0.035899
+LR: 0.000802
+Epoch time: 16.47 seconds, Average time: 16.37 seconds
+================================================================
+
+-> Current best: Epoch 99, Val Score = 0.012321
+
+
+Epoch [106/500]
+Train L2 Loss: 0.017941
+Train Deriv Loss: 0.123034
+val_loss: 0.021858
+val_linf: 0.035762
+LR: 0.000810
+Epoch time: 16.81 seconds, Average time: 16.37 seconds
+================================================================
+
+-> Current best: Epoch 99, Val Score = 0.012321
+
+
+Epoch [107/500]
+Train L2 Loss: 0.017969
+Train Deriv Loss: 0.121739
+val_loss: 0.016742
+val_linf: 0.031276
+LR: 0.000818
+Epoch time: 16.96 seconds, Average time: 16.38 seconds
+================================================================
+
+-> Current best: Epoch 99, Val Score = 0.012321
+
+
+Epoch [108/500]
+Train L2 Loss: 0.016278
+Train Deriv Loss: 0.116812
+val_loss: 0.044704
+val_linf: 0.053541
+LR: 0.000826
+Epoch time: 17.09 seconds, Average time: 16.38 seconds
+================================================================
+
+-> Current best: Epoch 99, Val Score = 0.012321
+
+
+Epoch [109/500]
+Train L2 Loss: 0.017257
+Train Deriv Loss: 0.116672
+val_loss: 0.012409
+val_linf: 0.028111
+LR: 0.000834
+Epoch time: 17.42 seconds, Average time: 16.39 seconds
+================================================================
+
+-> Current best: Epoch 99, Val Score = 0.012321
+
+
+Epoch [110/500]
+Train L2 Loss: 0.017906
+Train Deriv Loss: 0.119032
+val_loss: 0.013934
+val_linf: 0.028451
+LR: 0.000841
+Epoch time: 17.04 seconds, Average time: 16.40 seconds
+================================================================
+
+-> Current best: Epoch 99, Val Score = 0.012321
+
+
+Epoch [111/500]
+Train L2 Loss: 0.016862
+Train Deriv Loss: 0.114504
+val_loss: 0.015762
+val_linf: 0.028981
+LR: 0.000849
+Epoch time: 17.29 seconds, Average time: 16.41 seconds
+================================================================
+
+-> Current best: Epoch 99, Val Score = 0.012321
+
+
+Epoch [112/500]
+Train L2 Loss: 0.016994
+Train Deriv Loss: 0.115744
+val_loss: 0.017734
+val_linf: 0.032966
+LR: 0.000856
+Epoch time: 16.96 seconds, Average time: 16.41 seconds
+================================================================
+
+-> Current best: Epoch 99, Val Score = 0.012321
+
+
+Epoch [113/500]
+Train L2 Loss: 0.018645
+Train Deriv Loss: 0.128219
+val_loss: 0.021526
+val_linf: 0.036936
+LR: 0.000863
+Epoch time: 16.86 seconds, Average time: 16.42 seconds
+================================================================
+
+-> Current best: Epoch 99, Val Score = 0.012321
+
+
+Epoch [114/500]
+Train L2 Loss: 0.017047
+Train Deriv Loss: 0.115589
+val_loss: 0.013848
+val_linf: 0.029232
+LR: 0.000870
+Epoch time: 16.51 seconds, Average time: 16.42 seconds
+================================================================
+
+-> Current best: Epoch 99, Val Score = 0.012321
+
+
+Epoch [115/500]
+Train L2 Loss: 0.016828
+Train Deriv Loss: 0.118847
+val_loss: 0.013046
+val_linf: 0.028118
+LR: 0.000877
+Epoch time: 16.53 seconds, Average time: 16.42 seconds
+================================================================
+
+-> Current best: Epoch 99, Val Score = 0.012321
+
+
+Epoch [116/500]
+Train L2 Loss: 0.016968
+Train Deriv Loss: 0.116984
+val_loss: 0.032500
+val_linf: 0.047111
+LR: 0.000883
+Epoch time: 16.44 seconds, Average time: 16.42 seconds
+================================================================
+
+-> Current best: Epoch 99, Val Score = 0.012321
+
+
+Epoch [117/500]
+Train L2 Loss: 0.017036
+Train Deriv Loss: 0.119911
+val_loss: 0.012156
+val_linf: 0.028384
+LR: 0.000890
+Epoch time: 16.51 seconds, Average time: 16.42 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.012156, after 18 epochs
+
+
+Epoch [118/500]
+Train L2 Loss: 0.016911
+Train Deriv Loss: 0.116393
+val_loss: 0.012306
+val_linf: 0.026648
+LR: 0.000896
+Epoch time: 16.96 seconds, Average time: 16.42 seconds
+================================================================
+
+-> Current best: Epoch 117, Val Score = 0.012156
+
+
+Epoch [119/500]
+Train L2 Loss: 0.016643
+Train Deriv Loss: 0.112907
+val_loss: 0.013152
+val_linf: 0.026259
+LR: 0.000902
+Epoch time: 17.10 seconds, Average time: 16.43 seconds
+================================================================
+
+-> Current best: Epoch 117, Val Score = 0.012156
+
+
+Epoch [120/500]
+Train L2 Loss: 0.017157
+Train Deriv Loss: 0.117076
+val_loss: 0.021281
+val_linf: 0.037086
+LR: 0.000908
+Epoch time: 17.03 seconds, Average time: 16.43 seconds
+================================================================
+
+-> Current best: Epoch 117, Val Score = 0.012156
+
+
+Epoch [121/500]
+Train L2 Loss: 0.016007
+Train Deriv Loss: 0.113047
+val_loss: 0.010218
+val_linf: 0.025058
+LR: 0.000914
+Epoch time: 17.52 seconds, Average time: 16.44 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.010218, after 4 epochs
+
+
+Epoch [122/500]
+Train L2 Loss: 0.015047
+Train Deriv Loss: 0.111459
+val_loss: 0.017371
+val_linf: 0.032228
+LR: 0.000920
+Epoch time: 16.91 seconds, Average time: 16.45 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [123/500]
+Train L2 Loss: 0.017279
+Train Deriv Loss: 0.118145
+val_loss: 0.021279
+val_linf: 0.035048
+LR: 0.000925
+Epoch time: 17.05 seconds, Average time: 16.45 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [124/500]
+Train L2 Loss: 0.017439
+Train Deriv Loss: 0.116049
+val_loss: 0.016777
+val_linf: 0.030192
+LR: 0.000931
+Epoch time: 17.16 seconds, Average time: 16.46 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [125/500]
+Train L2 Loss: 0.017038
+Train Deriv Loss: 0.111803
+val_loss: 0.016049
+val_linf: 0.030093
+LR: 0.000936
+Epoch time: 17.47 seconds, Average time: 16.47 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [126/500]
+Train L2 Loss: 0.016201
+Train Deriv Loss: 0.112824
+val_loss: 0.012562
+val_linf: 0.029124
+LR: 0.000941
+Epoch time: 17.74 seconds, Average time: 16.48 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [127/500]
+Train L2 Loss: 0.015358
+Train Deriv Loss: 0.109136
+val_loss: 0.013496
+val_linf: 0.027690
+LR: 0.000945
+Epoch time: 16.81 seconds, Average time: 16.48 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [128/500]
+Train L2 Loss: 0.015143
+Train Deriv Loss: 0.106814
+val_loss: 0.013949
+val_linf: 0.027824
+LR: 0.000950
+Epoch time: 16.78 seconds, Average time: 16.48 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [129/500]
+Train L2 Loss: 0.016004
+Train Deriv Loss: 0.109174
+val_loss: 0.018167
+val_linf: 0.030880
+LR: 0.000954
+Epoch time: 17.12 seconds, Average time: 16.49 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [130/500]
+Train L2 Loss: 0.015297
+Train Deriv Loss: 0.107343
+val_loss: 0.011726
+val_linf: 0.025079
+LR: 0.000959
+Epoch time: 17.60 seconds, Average time: 16.49 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [131/500]
+Train L2 Loss: 0.016093
+Train Deriv Loss: 0.112157
+val_loss: 0.017682
+val_linf: 0.030324
+LR: 0.000963
+Epoch time: 17.27 seconds, Average time: 16.50 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [132/500]
+Train L2 Loss: 0.015149
+Train Deriv Loss: 0.106408
+val_loss: 0.015576
+val_linf: 0.029286
+LR: 0.000966
+Epoch time: 16.75 seconds, Average time: 16.50 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [133/500]
+Train L2 Loss: 0.014197
+Train Deriv Loss: 0.103047
+val_loss: 0.016902
+val_linf: 0.033169
+LR: 0.000970
+Epoch time: 17.28 seconds, Average time: 16.51 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [134/500]
+Train L2 Loss: 0.016472
+Train Deriv Loss: 0.111652
+val_loss: 0.012777
+val_linf: 0.025715
+LR: 0.000973
+Epoch time: 16.92 seconds, Average time: 16.51 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [135/500]
+Train L2 Loss: 0.016292
+Train Deriv Loss: 0.110212
+val_loss: 0.013432
+val_linf: 0.028504
+LR: 0.000977
+Epoch time: 16.96 seconds, Average time: 16.51 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [136/500]
+Train L2 Loss: 0.015208
+Train Deriv Loss: 0.105863
+val_loss: 0.012550
+val_linf: 0.027609
+LR: 0.000980
+Epoch time: 17.26 seconds, Average time: 16.52 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [137/500]
+Train L2 Loss: 0.014944
+Train Deriv Loss: 0.104709
+val_loss: 0.016032
+val_linf: 0.028513
+LR: 0.000982
+Epoch time: 16.96 seconds, Average time: 16.52 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [138/500]
+Train L2 Loss: 0.015513
+Train Deriv Loss: 0.112033
+val_loss: 0.016001
+val_linf: 0.027819
+LR: 0.000985
+Epoch time: 16.81 seconds, Average time: 16.53 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [139/500]
+Train L2 Loss: 0.014518
+Train Deriv Loss: 0.103126
+val_loss: 0.020505
+val_linf: 0.033949
+LR: 0.000987
+Epoch time: 16.96 seconds, Average time: 16.53 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [140/500]
+Train L2 Loss: 0.016156
+Train Deriv Loss: 0.109713
+val_loss: 0.014158
+val_linf: 0.029054
+LR: 0.000990
+Epoch time: 16.85 seconds, Average time: 16.53 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [141/500]
+Train L2 Loss: 0.013635
+Train Deriv Loss: 0.099894
+val_loss: 0.015022
+val_linf: 0.028012
+LR: 0.000992
+Epoch time: 17.01 seconds, Average time: 16.53 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [142/500]
+Train L2 Loss: 0.014621
+Train Deriv Loss: 0.104093
+val_loss: 0.015180
+val_linf: 0.027599
+LR: 0.000993
+Epoch time: 16.81 seconds, Average time: 16.54 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [143/500]
+Train L2 Loss: 0.014504
+Train Deriv Loss: 0.102460
+val_loss: 0.012766
+val_linf: 0.027252
+LR: 0.000995
+Epoch time: 16.77 seconds, Average time: 16.54 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [144/500]
+Train L2 Loss: 0.013504
+Train Deriv Loss: 0.100726
+val_loss: 0.015988
+val_linf: 0.028366
+LR: 0.000996
+Epoch time: 16.94 seconds, Average time: 16.54 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [145/500]
+Train L2 Loss: 0.015002
+Train Deriv Loss: 0.101032
+val_loss: 0.013023
+val_linf: 0.026602
+LR: 0.000997
+Epoch time: 16.99 seconds, Average time: 16.54 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [146/500]
+Train L2 Loss: 0.013861
+Train Deriv Loss: 0.098606
+val_loss: 0.016917
+val_linf: 0.028743
+LR: 0.000998
+Epoch time: 17.02 seconds, Average time: 16.55 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [147/500]
+Train L2 Loss: 0.013358
+Train Deriv Loss: 0.096241
+val_loss: 0.016258
+val_linf: 0.028535
+LR: 0.000999
+Epoch time: 17.03 seconds, Average time: 16.55 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [148/500]
+Train L2 Loss: 0.014237
+Train Deriv Loss: 0.100001
+val_loss: 0.010489
+val_linf: 0.024980
+LR: 0.001000
+Epoch time: 16.89 seconds, Average time: 16.55 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [149/500]
+Train L2 Loss: 0.013328
+Train Deriv Loss: 0.098909
+val_loss: 0.015226
+val_linf: 0.032392
+LR: 0.001000
+Epoch time: 16.96 seconds, Average time: 16.56 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [150/500]
+Train L2 Loss: 0.013749
+Train Deriv Loss: 0.101108
+val_loss: 0.021251
+val_linf: 0.035143
+LR: 0.001000
+Epoch time: 16.63 seconds, Average time: 16.56 seconds
+================================================================
+
+-> Current best: Epoch 121, Val Score = 0.010218
+
+
+Epoch [151/500]
+Train L2 Loss: 0.014754
+Train Deriv Loss: 0.105361
+val_loss: 0.010208
+val_linf: 0.024612
+LR: 0.001000
+Epoch time: 16.74 seconds, Average time: 16.56 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.010208, after 30 epochs
+
+
+Epoch [152/500]
+Train L2 Loss: 0.012332
+Train Deriv Loss: 0.090568
+val_loss: 0.012087
+val_linf: 0.024625
+LR: 0.001000
+Epoch time: 16.80 seconds, Average time: 16.56 seconds
+================================================================
+
+-> Current best: Epoch 151, Val Score = 0.010208
+
+
+Epoch [153/500]
+Train L2 Loss: 0.013383
+Train Deriv Loss: 0.099961
+val_loss: 0.012270
+val_linf: 0.028291
+LR: 0.001000
+Epoch time: 16.23 seconds, Average time: 16.56 seconds
+================================================================
+
+-> Current best: Epoch 151, Val Score = 0.010208
+
+
+Epoch [154/500]
+Train L2 Loss: 0.013457
+Train Deriv Loss: 0.098831
+val_loss: 0.011467
+val_linf: 0.025254
+LR: 0.001000
+Epoch time: 16.14 seconds, Average time: 16.55 seconds
+================================================================
+
+-> Current best: Epoch 151, Val Score = 0.010208
+
+
+Epoch [155/500]
+Train L2 Loss: 0.012081
+Train Deriv Loss: 0.089585
+val_loss: 0.010291
+val_linf: 0.023430
+LR: 0.000999
+Epoch time: 16.77 seconds, Average time: 16.56 seconds
+================================================================
+
+-> Current best: Epoch 151, Val Score = 0.010208
+
+
+Epoch [156/500]
+Train L2 Loss: 0.013318
+Train Deriv Loss: 0.096904
+val_loss: 0.012053
+val_linf: 0.024727
+LR: 0.000999
+Epoch time: 17.41 seconds, Average time: 16.56 seconds
+================================================================
+
+-> Current best: Epoch 151, Val Score = 0.010208
+
+
+Epoch [157/500]
+Train L2 Loss: 0.014325
+Train Deriv Loss: 0.108167
+val_loss: 0.014923
+val_linf: 0.028384
+LR: 0.000999
+Epoch time: 17.31 seconds, Average time: 16.57 seconds
+================================================================
+
+-> Current best: Epoch 151, Val Score = 0.010208
+
+
+Epoch [158/500]
+Train L2 Loss: 0.012251
+Train Deriv Loss: 0.088572
+val_loss: 0.013365
+val_linf: 0.024943
+LR: 0.000999
+Epoch time: 16.81 seconds, Average time: 16.57 seconds
+================================================================
+
+-> Current best: Epoch 151, Val Score = 0.010208
+
+
+Epoch [159/500]
+Train L2 Loss: 0.013298
+Train Deriv Loss: 0.100216
+val_loss: 0.012102
+val_linf: 0.025121
+LR: 0.000998
+Epoch time: 16.24 seconds, Average time: 16.56 seconds
+================================================================
+
+-> Current best: Epoch 151, Val Score = 0.010208
+
+
+Epoch [160/500]
+Train L2 Loss: 0.012230
+Train Deriv Loss: 0.091226
+val_loss: 0.021718
+val_linf: 0.031256
+LR: 0.000998
+Epoch time: 16.17 seconds, Average time: 16.56 seconds
+================================================================
+
+-> Current best: Epoch 151, Val Score = 0.010208
+
+
+Epoch [161/500]
+Train L2 Loss: 0.013288
+Train Deriv Loss: 0.095368
+val_loss: 0.010188
+val_linf: 0.024463
+LR: 0.000998
+Epoch time: 16.21 seconds, Average time: 16.56 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.010188, after 10 epochs
+
+
+Epoch [162/500]
+Train L2 Loss: 0.011976
+Train Deriv Loss: 0.090513
+val_loss: 0.014322
+val_linf: 0.029255
+LR: 0.000997
+Epoch time: 16.17 seconds, Average time: 16.56 seconds
+================================================================
+
+-> Current best: Epoch 161, Val Score = 0.010188
+
+
+Epoch [163/500]
+Train L2 Loss: 0.011701
+Train Deriv Loss: 0.091488
+val_loss: 0.010437
+val_linf: 0.024388
+LR: 0.000997
+Epoch time: 16.22 seconds, Average time: 16.56 seconds
+================================================================
+
+-> Current best: Epoch 161, Val Score = 0.010188
+
+
+Epoch [164/500]
+Train L2 Loss: 0.011954
+Train Deriv Loss: 0.090554
+val_loss: 0.011413
+val_linf: 0.024094
+LR: 0.000996
+Epoch time: 16.27 seconds, Average time: 16.55 seconds
+================================================================
+
+-> Current best: Epoch 161, Val Score = 0.010188
+
+
+Epoch [165/500]
+Train L2 Loss: 0.011653
+Train Deriv Loss: 0.086168
+val_loss: 0.012804
+val_linf: 0.025083
+LR: 0.000995
+Epoch time: 16.19 seconds, Average time: 16.55 seconds
+================================================================
+
+-> Current best: Epoch 161, Val Score = 0.010188
+
+
+Epoch [166/500]
+Train L2 Loss: 0.011835
+Train Deriv Loss: 0.087591
+val_loss: 0.017881
+val_linf: 0.033810
+LR: 0.000995
+Epoch time: 16.23 seconds, Average time: 16.55 seconds
+================================================================
+
+-> Current best: Epoch 161, Val Score = 0.010188
+
+
+Epoch [167/500]
+Train L2 Loss: 0.011734
+Train Deriv Loss: 0.088312
+val_loss: 0.010225
+val_linf: 0.023361
+LR: 0.000994
+Epoch time: 16.25 seconds, Average time: 16.55 seconds
+================================================================
+
+-> Current best: Epoch 161, Val Score = 0.010188
+
+
+Epoch [168/500]
+Train L2 Loss: 0.012542
+Train Deriv Loss: 0.093973
+val_loss: 0.010873
+val_linf: 0.025222
+LR: 0.000993
+Epoch time: 16.23 seconds, Average time: 16.55 seconds
+================================================================
+
+-> Current best: Epoch 161, Val Score = 0.010188
+
+
+Epoch [169/500]
+Train L2 Loss: 0.011627
+Train Deriv Loss: 0.089374
+val_loss: 0.012880
+val_linf: 0.025431
+LR: 0.000993
+Epoch time: 16.23 seconds, Average time: 16.54 seconds
+================================================================
+
+-> Current best: Epoch 161, Val Score = 0.010188
+
+
+Epoch [170/500]
+Train L2 Loss: 0.012254
+Train Deriv Loss: 0.090001
+val_loss: 0.009986
+val_linf: 0.023260
+LR: 0.000992
+Epoch time: 16.24 seconds, Average time: 16.54 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.009986, after 9 epochs
+
+
+Epoch [171/500]
+Train L2 Loss: 0.012882
+Train Deriv Loss: 0.096715
+val_loss: 0.016489
+val_linf: 0.028215
+LR: 0.000991
+Epoch time: 16.22 seconds, Average time: 16.54 seconds
+================================================================
+
+-> Current best: Epoch 170, Val Score = 0.009986
+
+
+Epoch [172/500]
+Train L2 Loss: 0.010603
+Train Deriv Loss: 0.085886
+val_loss: 0.017384
+val_linf: 0.028726
+LR: 0.000990
+Epoch time: 16.19 seconds, Average time: 16.54 seconds
+================================================================
+
+-> Current best: Epoch 170, Val Score = 0.009986
+
+
+Epoch [173/500]
+Train L2 Loss: 0.012645
+Train Deriv Loss: 0.095861
+val_loss: 0.012086
+val_linf: 0.024015
+LR: 0.000989
+Epoch time: 16.23 seconds, Average time: 16.54 seconds
+================================================================
+
+-> Current best: Epoch 170, Val Score = 0.009986
+
+
+Epoch [174/500]
+Train L2 Loss: 0.010666
+Train Deriv Loss: 0.085024
+val_loss: 0.009410
+val_linf: 0.021918
+LR: 0.000988
+Epoch time: 16.21 seconds, Average time: 16.53 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.009410, after 4 epochs
+
+
+Epoch [175/500]
+Train L2 Loss: 0.011779
+Train Deriv Loss: 0.088195
+val_loss: 0.013011
+val_linf: 0.025977
+LR: 0.000987
+Epoch time: 16.23 seconds, Average time: 16.53 seconds
+================================================================
+
+-> Current best: Epoch 174, Val Score = 0.009410
+
+
+Epoch [176/500]
+Train L2 Loss: 0.011548
+Train Deriv Loss: 0.091235
+val_loss: 0.010025
+val_linf: 0.022717
+LR: 0.000986
+Epoch time: 16.46 seconds, Average time: 16.53 seconds
+================================================================
+
+-> Current best: Epoch 174, Val Score = 0.009410
+
+
+Epoch [177/500]
+Train L2 Loss: 0.011080
+Train Deriv Loss: 0.082405
+val_loss: 0.009706
+val_linf: 0.023092
+LR: 0.000985
+Epoch time: 16.23 seconds, Average time: 16.53 seconds
+================================================================
+
+-> Current best: Epoch 174, Val Score = 0.009410
+
+
+Epoch [178/500]
+Train L2 Loss: 0.010441
+Train Deriv Loss: 0.084712
+val_loss: 0.009468
+val_linf: 0.022122
+LR: 0.000984
+Epoch time: 16.19 seconds, Average time: 16.53 seconds
+================================================================
+
+-> Current best: Epoch 174, Val Score = 0.009410
+
+
+Epoch [179/500]
+Train L2 Loss: 0.011430
+Train Deriv Loss: 0.086528
+val_loss: 0.011130
+val_linf: 0.025114
+LR: 0.000983
+Epoch time: 16.17 seconds, Average time: 16.53 seconds
+================================================================
+
+-> Current best: Epoch 174, Val Score = 0.009410
+
+
+Epoch [180/500]
+Train L2 Loss: 0.010829
+Train Deriv Loss: 0.083750
+val_loss: 0.011331
+val_linf: 0.024057
+LR: 0.000982
+Epoch time: 16.18 seconds, Average time: 16.53 seconds
+================================================================
+
+-> Current best: Epoch 174, Val Score = 0.009410
+
+
+Epoch [181/500]
+Train L2 Loss: 0.011540
+Train Deriv Loss: 0.087312
+val_loss: 0.008780
+val_linf: 0.022563
+LR: 0.000981
+Epoch time: 16.21 seconds, Average time: 16.52 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.008780, after 7 epochs
+
+
+Epoch [182/500]
+Train L2 Loss: 0.010039
+Train Deriv Loss: 0.081158
+val_loss: 0.008909
+val_linf: 0.022267
+LR: 0.000980
+Epoch time: 16.16 seconds, Average time: 16.52 seconds
+================================================================
+
+-> Current best: Epoch 181, Val Score = 0.008780
+
+
+Epoch [183/500]
+Train L2 Loss: 0.010499
+Train Deriv Loss: 0.083372
+val_loss: 0.008637
+val_linf: 0.022285
+LR: 0.000978
+Epoch time: 16.20 seconds, Average time: 16.52 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.008637, after 2 epochs
+
+
+Epoch [184/500]
+Train L2 Loss: 0.010646
+Train Deriv Loss: 0.084886
+val_loss: 0.014624
+val_linf: 0.027825
+LR: 0.000977
+Epoch time: 16.20 seconds, Average time: 16.52 seconds
+================================================================
+
+-> Current best: Epoch 183, Val Score = 0.008637
+
+
+Epoch [185/500]
+Train L2 Loss: 0.010943
+Train Deriv Loss: 0.082578
+val_loss: 0.009504
+val_linf: 0.023227
+LR: 0.000976
+Epoch time: 16.17 seconds, Average time: 16.52 seconds
+================================================================
+
+-> Current best: Epoch 183, Val Score = 0.008637
+
+
+Epoch [186/500]
+Train L2 Loss: 0.010989
+Train Deriv Loss: 0.082940
+val_loss: 0.011357
+val_linf: 0.023822
+LR: 0.000974
+Epoch time: 16.20 seconds, Average time: 16.51 seconds
+================================================================
+
+-> Current best: Epoch 183, Val Score = 0.008637
+
+
+Epoch [187/500]
+Train L2 Loss: 0.010429
+Train Deriv Loss: 0.083492
+val_loss: 0.008779
+val_linf: 0.022175
+LR: 0.000973
+Epoch time: 16.18 seconds, Average time: 16.51 seconds
+================================================================
+
+-> Current best: Epoch 183, Val Score = 0.008637
+
+
+Epoch [188/500]
+Train L2 Loss: 0.010894
+Train Deriv Loss: 0.084665
+val_loss: 0.014954
+val_linf: 0.026847
+LR: 0.000971
+Epoch time: 16.19 seconds, Average time: 16.51 seconds
+================================================================
+
+-> Current best: Epoch 183, Val Score = 0.008637
+
+
+Epoch [189/500]
+Train L2 Loss: 0.009877
+Train Deriv Loss: 0.080253
+val_loss: 0.012687
+val_linf: 0.025309
+LR: 0.000970
+Epoch time: 16.18 seconds, Average time: 16.51 seconds
+================================================================
+
+-> Current best: Epoch 183, Val Score = 0.008637
+
+
+Epoch [190/500]
+Train L2 Loss: 0.010283
+Train Deriv Loss: 0.080877
+val_loss: 0.010134
+val_linf: 0.023366
+LR: 0.000968
+Epoch time: 16.21 seconds, Average time: 16.51 seconds
+================================================================
+
+-> Current best: Epoch 183, Val Score = 0.008637
+
+
+Epoch [191/500]
+Train L2 Loss: 0.012296
+Train Deriv Loss: 0.090338
+val_loss: 0.013183
+val_linf: 0.024056
+LR: 0.000967
+Epoch time: 16.53 seconds, Average time: 16.51 seconds
+================================================================
+
+-> Current best: Epoch 183, Val Score = 0.008637
+
+
+Epoch [192/500]
+Train L2 Loss: 0.009546
+Train Deriv Loss: 0.078709
+val_loss: 0.009770
+val_linf: 0.023300
+LR: 0.000965
+Epoch time: 16.94 seconds, Average time: 16.51 seconds
+================================================================
+
+-> Current best: Epoch 183, Val Score = 0.008637
+
+
+Epoch [193/500]
+Train L2 Loss: 0.008795
+Train Deriv Loss: 0.075955
+val_loss: 0.016669
+val_linf: 0.029432
+LR: 0.000963
+Epoch time: 16.64 seconds, Average time: 16.51 seconds
+================================================================
+
+-> Current best: Epoch 183, Val Score = 0.008637
+
+
+Epoch [194/500]
+Train L2 Loss: 0.010704
+Train Deriv Loss: 0.084527
+val_loss: 0.009974
+val_linf: 0.021627
+LR: 0.000962
+Epoch time: 16.21 seconds, Average time: 16.51 seconds
+================================================================
+
+-> Current best: Epoch 183, Val Score = 0.008637
+
+
+Epoch [195/500]
+Train L2 Loss: 0.010707
+Train Deriv Loss: 0.082764
+val_loss: 0.014329
+val_linf: 0.025115
+LR: 0.000960
+Epoch time: 16.30 seconds, Average time: 16.51 seconds
+================================================================
+
+-> Current best: Epoch 183, Val Score = 0.008637
+
+
+Epoch [196/500]
+Train L2 Loss: 0.009902
+Train Deriv Loss: 0.077894
+val_loss: 0.010189
+val_linf: 0.024006
+LR: 0.000958
+Epoch time: 16.25 seconds, Average time: 16.51 seconds
+================================================================
+
+-> Current best: Epoch 183, Val Score = 0.008637
+
+
+Epoch [197/500]
+Train L2 Loss: 0.009867
+Train Deriv Loss: 0.079855
+val_loss: 0.011688
+val_linf: 0.022311
+LR: 0.000956
+Epoch time: 16.20 seconds, Average time: 16.51 seconds
+================================================================
+
+-> Current best: Epoch 183, Val Score = 0.008637
+
+
+Epoch [198/500]
+Train L2 Loss: 0.009804
+Train Deriv Loss: 0.080800
+val_loss: 0.010558
+val_linf: 0.022345
+LR: 0.000954
+Epoch time: 16.19 seconds, Average time: 16.50 seconds
+================================================================
+
+-> Current best: Epoch 183, Val Score = 0.008637
+
+
+Epoch [199/500]
+Train L2 Loss: 0.009948
+Train Deriv Loss: 0.079847
+val_loss: 0.012266
+val_linf: 0.026430
+LR: 0.000952
+Epoch time: 16.20 seconds, Average time: 16.50 seconds
+================================================================
+
+-> Current best: Epoch 183, Val Score = 0.008637
+
+
+Epoch [200/500]
+Train L2 Loss: 0.009890
+Train Deriv Loss: 0.078918
+val_loss: 0.008521
+val_linf: 0.021459
+LR: 0.000950
+Epoch time: 16.23 seconds, Average time: 16.50 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.008521, after 17 epochs
+
+
+Epoch [201/500]
+Train L2 Loss: 0.009488
+Train Deriv Loss: 0.078053
+val_loss: 0.008517
+val_linf: 0.021951
+LR: 0.000949
+Epoch time: 16.21 seconds, Average time: 16.50 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.008517, after 1 epochs
+
+
+Epoch [202/500]
+Train L2 Loss: 0.010396
+Train Deriv Loss: 0.079583
+val_loss: 0.007707
+val_linf: 0.020760
+LR: 0.000947
+Epoch time: 16.30 seconds, Average time: 16.50 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.007707, after 1 epochs
+
+
+Epoch [203/500]
+Train L2 Loss: 0.009503
+Train Deriv Loss: 0.075892
+val_loss: 0.009262
+val_linf: 0.022252
+LR: 0.000944
+Epoch time: 17.91 seconds, Average time: 16.51 seconds
+================================================================
+
+-> Current best: Epoch 202, Val Score = 0.007707
+
+
+Epoch [204/500]
+Train L2 Loss: 0.009551
+Train Deriv Loss: 0.078065
+val_loss: 0.010089
+val_linf: 0.022546
+LR: 0.000942
+Epoch time: 16.49 seconds, Average time: 16.51 seconds
+================================================================
+
+-> Current best: Epoch 202, Val Score = 0.007707
+
+
+Epoch [205/500]
+Train L2 Loss: 0.009513
+Train Deriv Loss: 0.076843
+val_loss: 0.010874
+val_linf: 0.024778
+LR: 0.000940
+Epoch time: 16.22 seconds, Average time: 16.50 seconds
+================================================================
+
+-> Current best: Epoch 202, Val Score = 0.007707
+
+
+Epoch [206/500]
+Train L2 Loss: 0.009862
+Train Deriv Loss: 0.079421
+val_loss: 0.009603
+val_linf: 0.022764
+LR: 0.000938
+Epoch time: 16.22 seconds, Average time: 16.50 seconds
+================================================================
+
+-> Current best: Epoch 202, Val Score = 0.007707
+
+
+Epoch [207/500]
+Train L2 Loss: 0.008982
+Train Deriv Loss: 0.076476
+val_loss: 0.013382
+val_linf: 0.024369
+LR: 0.000936
+Epoch time: 16.22 seconds, Average time: 16.50 seconds
+================================================================
+
+-> Current best: Epoch 202, Val Score = 0.007707
+
+
+Epoch [208/500]
+Train L2 Loss: 0.009748
+Train Deriv Loss: 0.078807
+val_loss: 0.010557
+val_linf: 0.023281
+LR: 0.000934
+Epoch time: 16.25 seconds, Average time: 16.50 seconds
+================================================================
+
+-> Current best: Epoch 202, Val Score = 0.007707
+
+
+Epoch [209/500]
+Train L2 Loss: 0.009062
+Train Deriv Loss: 0.076809
+val_loss: 0.009163
+val_linf: 0.021924
+LR: 0.000932
+Epoch time: 16.22 seconds, Average time: 16.50 seconds
+================================================================
+
+-> Current best: Epoch 202, Val Score = 0.007707
+
+
+Epoch [210/500]
+Train L2 Loss: 0.009258
+Train Deriv Loss: 0.076429
+val_loss: 0.016617
+val_linf: 0.031961
+LR: 0.000929
+Epoch time: 16.21 seconds, Average time: 16.50 seconds
+================================================================
+
+-> Current best: Epoch 202, Val Score = 0.007707
+
+
+Epoch [211/500]
+Train L2 Loss: 0.009817
+Train Deriv Loss: 0.079753
+val_loss: 0.007686
+val_linf: 0.020624
+LR: 0.000927
+Epoch time: 16.22 seconds, Average time: 16.50 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.007686, after 9 epochs
+
+
+Epoch [212/500]
+Train L2 Loss: 0.009143
+Train Deriv Loss: 0.075887
+val_loss: 0.007410
+val_linf: 0.020292
+LR: 0.000925
+Epoch time: 16.36 seconds, Average time: 16.50 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.007410, after 1 epochs
+
+
+Epoch [213/500]
+Train L2 Loss: 0.009933
+Train Deriv Loss: 0.078982
+val_loss: 0.009028
+val_linf: 0.021198
+LR: 0.000922
+Epoch time: 16.30 seconds, Average time: 16.49 seconds
+================================================================
+
+-> Current best: Epoch 212, Val Score = 0.007410
+
+
+Epoch [214/500]
+Train L2 Loss: 0.009418
+Train Deriv Loss: 0.078832
+val_loss: 0.015442
+val_linf: 0.024940
+LR: 0.000920
+Epoch time: 16.31 seconds, Average time: 16.49 seconds
+================================================================
+
+-> Current best: Epoch 212, Val Score = 0.007410
+
+
+Epoch [215/500]
+Train L2 Loss: 0.009450
+Train Deriv Loss: 0.078933
+val_loss: 0.009061
+val_linf: 0.022169
+LR: 0.000917
+Epoch time: 16.28 seconds, Average time: 16.49 seconds
+================================================================
+
+-> Current best: Epoch 212, Val Score = 0.007410
+
+
+Epoch [216/500]
+Train L2 Loss: 0.008740
+Train Deriv Loss: 0.074472
+val_loss: 0.011543
+val_linf: 0.023571
+LR: 0.000915
+Epoch time: 16.18 seconds, Average time: 16.49 seconds
+================================================================
+
+-> Current best: Epoch 212, Val Score = 0.007410
+
+
+Epoch [217/500]
+Train L2 Loss: 0.008806
+Train Deriv Loss: 0.075944
+val_loss: 0.011865
+val_linf: 0.024196
+LR: 0.000912
+Epoch time: 16.19 seconds, Average time: 16.49 seconds
+================================================================
+
+-> Current best: Epoch 212, Val Score = 0.007410
+
+
+Epoch [218/500]
+Train L2 Loss: 0.009059
+Train Deriv Loss: 0.076939
+val_loss: 0.007614
+val_linf: 0.021062
+LR: 0.000910
+Epoch time: 16.16 seconds, Average time: 16.49 seconds
+================================================================
+
+-> Current best: Epoch 212, Val Score = 0.007410
+
+
+Epoch [219/500]
+Train L2 Loss: 0.008664
+Train Deriv Loss: 0.074751
+val_loss: 0.008690
+val_linf: 0.021016
+LR: 0.000907
+Epoch time: 16.15 seconds, Average time: 16.49 seconds
+================================================================
+
+-> Current best: Epoch 212, Val Score = 0.007410
+
+
+Epoch [220/500]
+Train L2 Loss: 0.008678
+Train Deriv Loss: 0.074339
+val_loss: 0.009345
+val_linf: 0.021563
+LR: 0.000904
+Epoch time: 16.16 seconds, Average time: 16.49 seconds
+================================================================
+
+-> Current best: Epoch 212, Val Score = 0.007410
+
+
+Epoch [221/500]
+Train L2 Loss: 0.008456
+Train Deriv Loss: 0.072316
+val_loss: 0.006936
+val_linf: 0.020061
+LR: 0.000902
+Epoch time: 16.16 seconds, Average time: 16.48 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.006936, after 9 epochs
+
+
+Epoch [222/500]
+Train L2 Loss: 0.009139
+Train Deriv Loss: 0.075566
+val_loss: 0.008739
+val_linf: 0.021801
+LR: 0.000899
+Epoch time: 16.17 seconds, Average time: 16.48 seconds
+================================================================
+
+-> Current best: Epoch 221, Val Score = 0.006936
+
+
+Epoch [223/500]
+Train L2 Loss: 0.009009
+Train Deriv Loss: 0.076581
+val_loss: 0.008374
+val_linf: 0.020973
+LR: 0.000896
+Epoch time: 16.17 seconds, Average time: 16.48 seconds
+================================================================
+
+-> Current best: Epoch 221, Val Score = 0.006936
+
+
+Epoch [224/500]
+Train L2 Loss: 0.008104
+Train Deriv Loss: 0.070940
+val_loss: 0.007221
+val_linf: 0.020646
+LR: 0.000894
+Epoch time: 16.19 seconds, Average time: 16.48 seconds
+================================================================
+
+-> Current best: Epoch 221, Val Score = 0.006936
+
+
+Epoch [225/500]
+Train L2 Loss: 0.007890
+Train Deriv Loss: 0.069729
+val_loss: 0.007996
+val_linf: 0.021576
+LR: 0.000891
+Epoch time: 16.19 seconds, Average time: 16.48 seconds
+================================================================
+
+-> Current best: Epoch 221, Val Score = 0.006936
+
+
+Epoch [226/500]
+Train L2 Loss: 0.008829
+Train Deriv Loss: 0.074183
+val_loss: 0.009868
+val_linf: 0.022916
+LR: 0.000888
+Epoch time: 16.20 seconds, Average time: 16.48 seconds
+================================================================
+
+-> Current best: Epoch 221, Val Score = 0.006936
+
+
+Epoch [227/500]
+Train L2 Loss: 0.008227
+Train Deriv Loss: 0.072707
+val_loss: 0.007934
+val_linf: 0.020858
+LR: 0.000885
+Epoch time: 16.18 seconds, Average time: 16.48 seconds
+================================================================
+
+-> Current best: Epoch 221, Val Score = 0.006936
+
+
+Epoch [228/500]
+Train L2 Loss: 0.009582
+Train Deriv Loss: 0.078236
+val_loss: 0.008455
+val_linf: 0.022155
+LR: 0.000882
+Epoch time: 16.21 seconds, Average time: 16.47 seconds
+================================================================
+
+-> Current best: Epoch 221, Val Score = 0.006936
+
+
+Epoch [229/500]
+Train L2 Loss: 0.007669
+Train Deriv Loss: 0.069632
+val_loss: 0.008635
+val_linf: 0.022360
+LR: 0.000879
+Epoch time: 16.28 seconds, Average time: 16.47 seconds
+================================================================
+
+-> Current best: Epoch 221, Val Score = 0.006936
+
+
+Epoch [230/500]
+Train L2 Loss: 0.007806
+Train Deriv Loss: 0.069799
+val_loss: 0.008185
+val_linf: 0.020272
+LR: 0.000877
+Epoch time: 16.27 seconds, Average time: 16.47 seconds
+================================================================
+
+-> Current best: Epoch 221, Val Score = 0.006936
+
+
+Epoch [231/500]
+Train L2 Loss: 0.007857
+Train Deriv Loss: 0.070064
+val_loss: 0.016120
+val_linf: 0.035389
+LR: 0.000874
+Epoch time: 16.66 seconds, Average time: 16.47 seconds
+================================================================
+
+-> Current best: Epoch 221, Val Score = 0.006936
+
+
+Epoch [232/500]
+Train L2 Loss: 0.008444
+Train Deriv Loss: 0.074549
+val_loss: 0.008314
+val_linf: 0.021134
+LR: 0.000871
+Epoch time: 16.73 seconds, Average time: 16.47 seconds
+================================================================
+
+-> Current best: Epoch 221, Val Score = 0.006936
+
+
+Epoch [233/500]
+Train L2 Loss: 0.008305
+Train Deriv Loss: 0.071123
+val_loss: 0.008202
+val_linf: 0.021085
+LR: 0.000868
+Epoch time: 17.96 seconds, Average time: 16.48 seconds
+================================================================
+
+-> Current best: Epoch 221, Val Score = 0.006936
+
+
+Epoch [234/500]
+Train L2 Loss: 0.008142
+Train Deriv Loss: 0.071143
+val_loss: 0.013212
+val_linf: 0.023499
+LR: 0.000864
+Epoch time: 16.41 seconds, Average time: 16.48 seconds
+================================================================
+
+-> Current best: Epoch 221, Val Score = 0.006936
+
+
+Epoch [235/500]
+Train L2 Loss: 0.009041
+Train Deriv Loss: 0.077067
+val_loss: 0.011143
+val_linf: 0.023139
+LR: 0.000861
+Epoch time: 16.44 seconds, Average time: 16.48 seconds
+================================================================
+
+-> Current best: Epoch 221, Val Score = 0.006936
+
+
+Epoch [236/500]
+Train L2 Loss: 0.008261
+Train Deriv Loss: 0.073288
+val_loss: 0.007908
+val_linf: 0.021507
+LR: 0.000858
+Epoch time: 17.25 seconds, Average time: 16.48 seconds
+================================================================
+
+-> Current best: Epoch 221, Val Score = 0.006936
+
+
+Epoch [237/500]
+Train L2 Loss: 0.007625
+Train Deriv Loss: 0.068832
+val_loss: 0.007289
+val_linf: 0.019960
+LR: 0.000855
+Epoch time: 16.88 seconds, Average time: 16.49 seconds
+================================================================
+
+-> Current best: Epoch 221, Val Score = 0.006936
+
+
+Epoch [238/500]
+Train L2 Loss: 0.007655
+Train Deriv Loss: 0.070245
+val_loss: 0.010703
+val_linf: 0.021615
+LR: 0.000852
+Epoch time: 16.46 seconds, Average time: 16.49 seconds
+================================================================
+
+-> Current best: Epoch 221, Val Score = 0.006936
+
+
+Epoch [239/500]
+Train L2 Loss: 0.008420
+Train Deriv Loss: 0.072069
+val_loss: 0.008468
+val_linf: 0.020957
+LR: 0.000849
+Epoch time: 16.61 seconds, Average time: 16.49 seconds
+================================================================
+
+-> Current best: Epoch 221, Val Score = 0.006936
+
+
+Epoch [240/500]
+Train L2 Loss: 0.007727
+Train Deriv Loss: 0.069280
+val_loss: 0.018753
+val_linf: 0.028109
+LR: 0.000846
+Epoch time: 16.35 seconds, Average time: 16.49 seconds
+================================================================
+
+-> Current best: Epoch 221, Val Score = 0.006936
+
+
+Epoch [241/500]
+Train L2 Loss: 0.007949
+Train Deriv Loss: 0.071559
+val_loss: 0.007141
+val_linf: 0.020814
+LR: 0.000842
+Epoch time: 16.39 seconds, Average time: 16.49 seconds
+================================================================
+
+-> Current best: Epoch 221, Val Score = 0.006936
+
+
+Epoch [242/500]
+Train L2 Loss: 0.007866
+Train Deriv Loss: 0.070576
+val_loss: 0.014849
+val_linf: 0.025156
+LR: 0.000839
+Epoch time: 16.41 seconds, Average time: 16.48 seconds
+================================================================
+
+-> Current best: Epoch 221, Val Score = 0.006936
+
+
+Epoch [243/500]
+Train L2 Loss: 0.007548
+Train Deriv Loss: 0.068401
+val_loss: 0.006318
+val_linf: 0.019591
+LR: 0.000836
+Epoch time: 16.39 seconds, Average time: 16.48 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.006318, after 22 epochs
+
+
+Epoch [244/500]
+Train L2 Loss: 0.006934
+Train Deriv Loss: 0.065675
+val_loss: 0.007454
+val_linf: 0.020568
+LR: 0.000832
+Epoch time: 16.44 seconds, Average time: 16.48 seconds
+================================================================
+
+-> Current best: Epoch 243, Val Score = 0.006318
+
+
+Epoch [245/500]
+Train L2 Loss: 0.007952
+Train Deriv Loss: 0.070519
+val_loss: 0.007263
+val_linf: 0.020929
+LR: 0.000829
+Epoch time: 16.41 seconds, Average time: 16.48 seconds
+================================================================
+
+-> Current best: Epoch 243, Val Score = 0.006318
+
+
+Epoch [246/500]
+Train L2 Loss: 0.007023
+Train Deriv Loss: 0.066893
+val_loss: 0.007157
+val_linf: 0.020378
+LR: 0.000826
+Epoch time: 16.38 seconds, Average time: 16.48 seconds
+================================================================
+
+-> Current best: Epoch 243, Val Score = 0.006318
+
+
+Epoch [247/500]
+Train L2 Loss: 0.008052
+Train Deriv Loss: 0.070209
+val_loss: 0.013692
+val_linf: 0.024546
+LR: 0.000822
+Epoch time: 16.40 seconds, Average time: 16.48 seconds
+================================================================
+
+-> Current best: Epoch 243, Val Score = 0.006318
+
+
+Epoch [248/500]
+Train L2 Loss: 0.007443
+Train Deriv Loss: 0.069578
+val_loss: 0.009700
+val_linf: 0.022568
+LR: 0.000819
+Epoch time: 16.43 seconds, Average time: 16.48 seconds
+================================================================
+
+-> Current best: Epoch 243, Val Score = 0.006318
+
+
+Epoch [249/500]
+Train L2 Loss: 0.007611
+Train Deriv Loss: 0.067801
+val_loss: 0.009510
+val_linf: 0.021617
+LR: 0.000815
+Epoch time: 17.05 seconds, Average time: 16.49 seconds
+================================================================
+
+-> Current best: Epoch 243, Val Score = 0.006318
+
+
+Epoch [250/500]
+Train L2 Loss: 0.007093
+Train Deriv Loss: 0.067027
+val_loss: 0.006431
+val_linf: 0.019752
+LR: 0.000812
+Epoch time: 17.10 seconds, Average time: 16.49 seconds
+================================================================
+
+-> Current best: Epoch 243, Val Score = 0.006318
+
+
+Epoch [251/500]
+Train L2 Loss: 0.007670
+Train Deriv Loss: 0.069858
+val_loss: 0.007234
+val_linf: 0.020832
+LR: 0.000808
+Epoch time: 16.77 seconds, Average time: 16.49 seconds
+================================================================
+
+-> Current best: Epoch 243, Val Score = 0.006318
+
+
+Epoch [252/500]
+Train L2 Loss: 0.007511
+Train Deriv Loss: 0.070482
+val_loss: 0.009405
+val_linf: 0.021272
+LR: 0.000805
+Epoch time: 16.76 seconds, Average time: 16.49 seconds
+================================================================
+
+-> Current best: Epoch 243, Val Score = 0.006318
+
+
+Epoch [253/500]
+Train L2 Loss: 0.007551
+Train Deriv Loss: 0.066726
+val_loss: 0.007320
+val_linf: 0.019552
+LR: 0.000801
+Epoch time: 16.80 seconds, Average time: 16.49 seconds
+================================================================
+
+-> Current best: Epoch 243, Val Score = 0.006318
+
+
+Epoch [254/500]
+Train L2 Loss: 0.006797
+Train Deriv Loss: 0.066373
+val_loss: 0.008484
+val_linf: 0.021767
+LR: 0.000797
+Epoch time: 17.75 seconds, Average time: 16.50 seconds
+================================================================
+
+-> Current best: Epoch 243, Val Score = 0.006318
+
+
+Epoch [255/500]
+Train L2 Loss: 0.007124
+Train Deriv Loss: 0.069122
+val_loss: 0.006290
+val_linf: 0.019591
+LR: 0.000794
+Epoch time: 16.74 seconds, Average time: 16.50 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.006290, after 12 epochs
+
+
+Epoch [256/500]
+Train L2 Loss: 0.007274
+Train Deriv Loss: 0.067259
+val_loss: 0.008079
+val_linf: 0.021277
+LR: 0.000790
+Epoch time: 17.33 seconds, Average time: 16.50 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [257/500]
+Train L2 Loss: 0.006863
+Train Deriv Loss: 0.064175
+val_loss: 0.006651
+val_linf: 0.019347
+LR: 0.000787
+Epoch time: 17.33 seconds, Average time: 16.50 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [258/500]
+Train L2 Loss: 0.006618
+Train Deriv Loss: 0.063717
+val_loss: 0.007173
+val_linf: 0.019731
+LR: 0.000783
+Epoch time: 17.24 seconds, Average time: 16.51 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [259/500]
+Train L2 Loss: 0.007394
+Train Deriv Loss: 0.067097
+val_loss: 0.010826
+val_linf: 0.023447
+LR: 0.000779
+Epoch time: 17.22 seconds, Average time: 16.51 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [260/500]
+Train L2 Loss: 0.007836
+Train Deriv Loss: 0.070362
+val_loss: 0.007335
+val_linf: 0.020492
+LR: 0.000775
+Epoch time: 17.25 seconds, Average time: 16.51 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [261/500]
+Train L2 Loss: 0.007860
+Train Deriv Loss: 0.071254
+val_loss: 0.007332
+val_linf: 0.019984
+LR: 0.000772
+Epoch time: 17.20 seconds, Average time: 16.51 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [262/500]
+Train L2 Loss: 0.006728
+Train Deriv Loss: 0.065416
+val_loss: 0.007368
+val_linf: 0.019898
+LR: 0.000768
+Epoch time: 17.20 seconds, Average time: 16.52 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [263/500]
+Train L2 Loss: 0.007163
+Train Deriv Loss: 0.066314
+val_loss: 0.008651
+val_linf: 0.021542
+LR: 0.000764
+Epoch time: 17.21 seconds, Average time: 16.52 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [264/500]
+Train L2 Loss: 0.007039
+Train Deriv Loss: 0.066337
+val_loss: 0.008878
+val_linf: 0.021786
+LR: 0.000760
+Epoch time: 17.26 seconds, Average time: 16.52 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [265/500]
+Train L2 Loss: 0.007336
+Train Deriv Loss: 0.065468
+val_loss: 0.007187
+val_linf: 0.020595
+LR: 0.000756
+Epoch time: 17.20 seconds, Average time: 16.53 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [266/500]
+Train L2 Loss: 0.007014
+Train Deriv Loss: 0.065049
+val_loss: 0.008901
+val_linf: 0.020740
+LR: 0.000753
+Epoch time: 17.27 seconds, Average time: 16.53 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [267/500]
+Train L2 Loss: 0.006880
+Train Deriv Loss: 0.065841
+val_loss: 0.007422
+val_linf: 0.019938
+LR: 0.000749
+Epoch time: 17.22 seconds, Average time: 16.53 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [268/500]
+Train L2 Loss: 0.006785
+Train Deriv Loss: 0.065278
+val_loss: 0.006675
+val_linf: 0.019451
+LR: 0.000745
+Epoch time: 17.22 seconds, Average time: 16.53 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [269/500]
+Train L2 Loss: 0.007206
+Train Deriv Loss: 0.067325
+val_loss: 0.008044
+val_linf: 0.020150
+LR: 0.000741
+Epoch time: 17.16 seconds, Average time: 16.54 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [270/500]
+Train L2 Loss: 0.006351
+Train Deriv Loss: 0.063583
+val_loss: 0.007029
+val_linf: 0.020155
+LR: 0.000737
+Epoch time: 17.21 seconds, Average time: 16.54 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [271/500]
+Train L2 Loss: 0.006455
+Train Deriv Loss: 0.062869
+val_loss: 0.006875
+val_linf: 0.019834
+LR: 0.000733
+Epoch time: 17.19 seconds, Average time: 16.54 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [272/500]
+Train L2 Loss: 0.006578
+Train Deriv Loss: 0.064510
+val_loss: 0.008663
+val_linf: 0.020359
+LR: 0.000729
+Epoch time: 17.16 seconds, Average time: 16.54 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [273/500]
+Train L2 Loss: 0.006552
+Train Deriv Loss: 0.064690
+val_loss: 0.007809
+val_linf: 0.020141
+LR: 0.000725
+Epoch time: 17.16 seconds, Average time: 16.54 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [274/500]
+Train L2 Loss: 0.007118
+Train Deriv Loss: 0.066442
+val_loss: 0.006460
+val_linf: 0.019234
+LR: 0.000721
+Epoch time: 17.29 seconds, Average time: 16.55 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [275/500]
+Train L2 Loss: 0.006507
+Train Deriv Loss: 0.064233
+val_loss: 0.006655
+val_linf: 0.019887
+LR: 0.000717
+Epoch time: 17.31 seconds, Average time: 16.55 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [276/500]
+Train L2 Loss: 0.006387
+Train Deriv Loss: 0.063438
+val_loss: 0.008960
+val_linf: 0.022463
+LR: 0.000713
+Epoch time: 17.32 seconds, Average time: 16.55 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [277/500]
+Train L2 Loss: 0.007083
+Train Deriv Loss: 0.065640
+val_loss: 0.009165
+val_linf: 0.021627
+LR: 0.000709
+Epoch time: 17.34 seconds, Average time: 16.56 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [278/500]
+Train L2 Loss: 0.005997
+Train Deriv Loss: 0.062129
+val_loss: 0.006414
+val_linf: 0.019816
+LR: 0.000705
+Epoch time: 17.29 seconds, Average time: 16.56 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [279/500]
+Train L2 Loss: 0.007449
+Train Deriv Loss: 0.069121
+val_loss: 0.008937
+val_linf: 0.021068
+LR: 0.000701
+Epoch time: 17.30 seconds, Average time: 16.56 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [280/500]
+Train L2 Loss: 0.006446
+Train Deriv Loss: 0.063437
+val_loss: 0.007131
+val_linf: 0.019770
+LR: 0.000696
+Epoch time: 17.30 seconds, Average time: 16.56 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [281/500]
+Train L2 Loss: 0.006535
+Train Deriv Loss: 0.063327
+val_loss: 0.007020
+val_linf: 0.019404
+LR: 0.000692
+Epoch time: 17.33 seconds, Average time: 16.57 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [282/500]
+Train L2 Loss: 0.006372
+Train Deriv Loss: 0.064151
+val_loss: 0.006544
+val_linf: 0.019733
+LR: 0.000688
+Epoch time: 17.30 seconds, Average time: 16.57 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [283/500]
+Train L2 Loss: 0.006442
+Train Deriv Loss: 0.063367
+val_loss: 0.008375
+val_linf: 0.020575
+LR: 0.000684
+Epoch time: 17.38 seconds, Average time: 16.57 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [284/500]
+Train L2 Loss: 0.006120
+Train Deriv Loss: 0.063225
+val_loss: 0.007779
+val_linf: 0.020233
+LR: 0.000680
+Epoch time: 17.33 seconds, Average time: 16.57 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [285/500]
+Train L2 Loss: 0.005700
+Train Deriv Loss: 0.060878
+val_loss: 0.006769
+val_linf: 0.019589
+LR: 0.000676
+Epoch time: 17.37 seconds, Average time: 16.58 seconds
+================================================================
+
+-> Current best: Epoch 255, Val Score = 0.006290
+
+
+Epoch [286/500]
+Train L2 Loss: 0.005605
+Train Deriv Loss: 0.060336
+val_loss: 0.006278
+val_linf: 0.019173
+LR: 0.000671
+Epoch time: 17.23 seconds, Average time: 16.58 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.006278, after 31 epochs
+
+
+Epoch [287/500]
+Train L2 Loss: 0.005711
+Train Deriv Loss: 0.060392
+val_loss: 0.006446
+val_linf: 0.019592
+LR: 0.000667
+Epoch time: 17.23 seconds, Average time: 16.58 seconds
+================================================================
+
+-> Current best: Epoch 286, Val Score = 0.006278
+
+
+Epoch [288/500]
+Train L2 Loss: 0.005843
+Train Deriv Loss: 0.061117
+val_loss: 0.006834
+val_linf: 0.020051
+LR: 0.000663
+Epoch time: 17.59 seconds, Average time: 16.59 seconds
+================================================================
+
+-> Current best: Epoch 286, Val Score = 0.006278
+
+
+Epoch [289/500]
+Train L2 Loss: 0.006219
+Train Deriv Loss: 0.062640
+val_loss: 0.007046
+val_linf: 0.020708
+LR: 0.000659
+Epoch time: 17.40 seconds, Average time: 16.59 seconds
+================================================================
+
+-> Current best: Epoch 286, Val Score = 0.006278
+
+
+Epoch [290/500]
+Train L2 Loss: 0.005697
+Train Deriv Loss: 0.061358
+val_loss: 0.006402
+val_linf: 0.019022
+LR: 0.000654
+Epoch time: 17.40 seconds, Average time: 16.59 seconds
+================================================================
+
+-> Current best: Epoch 286, Val Score = 0.006278
+
+
+Epoch [291/500]
+Train L2 Loss: 0.005634
+Train Deriv Loss: 0.060053
+val_loss: 0.006574
+val_linf: 0.019145
+LR: 0.000650
+Epoch time: 17.37 seconds, Average time: 16.59 seconds
+================================================================
+
+-> Current best: Epoch 286, Val Score = 0.006278
+
+
+Epoch [292/500]
+Train L2 Loss: 0.005746
+Train Deriv Loss: 0.060209
+val_loss: 0.006722
+val_linf: 0.019601
+LR: 0.000646
+Epoch time: 17.35 seconds, Average time: 16.60 seconds
+================================================================
+
+-> Current best: Epoch 286, Val Score = 0.006278
+
+
+Epoch [293/500]
+Train L2 Loss: 0.006067
+Train Deriv Loss: 0.061936
+val_loss: 0.006877
+val_linf: 0.019362
+LR: 0.000642
+Epoch time: 17.36 seconds, Average time: 16.60 seconds
+================================================================
+
+-> Current best: Epoch 286, Val Score = 0.006278
+
+
+Epoch [294/500]
+Train L2 Loss: 0.005397
+Train Deriv Loss: 0.060048
+val_loss: 0.006468
+val_linf: 0.019068
+LR: 0.000637
+Epoch time: 17.35 seconds, Average time: 16.60 seconds
+================================================================
+
+-> Current best: Epoch 286, Val Score = 0.006278
+
+
+Epoch [295/500]
+Train L2 Loss: 0.005638
+Train Deriv Loss: 0.059219
+val_loss: 0.008017
+val_linf: 0.021327
+LR: 0.000633
+Epoch time: 17.47 seconds, Average time: 16.60 seconds
+================================================================
+
+-> Current best: Epoch 286, Val Score = 0.006278
+
+
+Epoch [296/500]
+Train L2 Loss: 0.005990
+Train Deriv Loss: 0.061493
+val_loss: 0.007932
+val_linf: 0.021012
+LR: 0.000629
+Epoch time: 17.56 seconds, Average time: 16.61 seconds
+================================================================
+
+-> Current best: Epoch 286, Val Score = 0.006278
+
+
+Epoch [297/500]
+Train L2 Loss: 0.005663
+Train Deriv Loss: 0.060351
+val_loss: 0.005504
+val_linf: 0.018976
+LR: 0.000624
+Epoch time: 17.42 seconds, Average time: 16.61 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.005504, after 11 epochs
+
+
+Epoch [298/500]
+Train L2 Loss: 0.005327
+Train Deriv Loss: 0.058190
+val_loss: 0.006890
+val_linf: 0.019575
+LR: 0.000620
+Epoch time: 17.35 seconds, Average time: 16.61 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [299/500]
+Train L2 Loss: 0.005184
+Train Deriv Loss: 0.058174
+val_loss: 0.005870
+val_linf: 0.018718
+LR: 0.000616
+Epoch time: 17.51 seconds, Average time: 16.62 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [300/500]
+Train L2 Loss: 0.005805
+Train Deriv Loss: 0.060054
+val_loss: 0.006497
+val_linf: 0.020175
+LR: 0.000611
+Epoch time: 17.48 seconds, Average time: 16.62 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [301/500]
+Train L2 Loss: 0.005420
+Train Deriv Loss: 0.059147
+val_loss: 0.006464
+val_linf: 0.019630
+LR: 0.000607
+Epoch time: 17.81 seconds, Average time: 16.62 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [302/500]
+Train L2 Loss: 0.005466
+Train Deriv Loss: 0.059520
+val_loss: 0.007332
+val_linf: 0.020623
+LR: 0.000602
+Epoch time: 17.42 seconds, Average time: 16.63 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [303/500]
+Train L2 Loss: 0.005595
+Train Deriv Loss: 0.059597
+val_loss: 0.007144
+val_linf: 0.021198
+LR: 0.000598
+Epoch time: 17.41 seconds, Average time: 16.63 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [304/500]
+Train L2 Loss: 0.005946
+Train Deriv Loss: 0.060633
+val_loss: 0.007607
+val_linf: 0.021423
+LR: 0.000594
+Epoch time: 17.39 seconds, Average time: 16.63 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [305/500]
+Train L2 Loss: 0.005035
+Train Deriv Loss: 0.057273
+val_loss: 0.006138
+val_linf: 0.019398
+LR: 0.000589
+Epoch time: 17.41 seconds, Average time: 16.63 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [306/500]
+Train L2 Loss: 0.005284
+Train Deriv Loss: 0.058166
+val_loss: 0.005530
+val_linf: 0.019246
+LR: 0.000585
+Epoch time: 17.29 seconds, Average time: 16.64 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [307/500]
+Train L2 Loss: 0.005081
+Train Deriv Loss: 0.059094
+val_loss: 0.005530
+val_linf: 0.019148
+LR: 0.000580
+Epoch time: 16.56 seconds, Average time: 16.64 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [308/500]
+Train L2 Loss: 0.005247
+Train Deriv Loss: 0.058324
+val_loss: 0.006726
+val_linf: 0.020125
+LR: 0.000576
+Epoch time: 16.71 seconds, Average time: 16.64 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [309/500]
+Train L2 Loss: 0.005016
+Train Deriv Loss: 0.057255
+val_loss: 0.005905
+val_linf: 0.019670
+LR: 0.000572
+Epoch time: 16.94 seconds, Average time: 16.64 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [310/500]
+Train L2 Loss: 0.005565
+Train Deriv Loss: 0.059298
+val_loss: 0.006089
+val_linf: 0.019365
+LR: 0.000567
+Epoch time: 17.24 seconds, Average time: 16.64 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [311/500]
+Train L2 Loss: 0.005400
+Train Deriv Loss: 0.058545
+val_loss: 0.006326
+val_linf: 0.020275
+LR: 0.000563
+Epoch time: 16.94 seconds, Average time: 16.64 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [312/500]
+Train L2 Loss: 0.005151
+Train Deriv Loss: 0.058427
+val_loss: 0.005943
+val_linf: 0.019089
+LR: 0.000558
+Epoch time: 17.35 seconds, Average time: 16.64 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [313/500]
+Train L2 Loss: 0.004724
+Train Deriv Loss: 0.056362
+val_loss: 0.005848
+val_linf: 0.019004
+LR: 0.000554
+Epoch time: 16.95 seconds, Average time: 16.64 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [314/500]
+Train L2 Loss: 0.004709
+Train Deriv Loss: 0.056102
+val_loss: 0.006123
+val_linf: 0.019189
+LR: 0.000549
+Epoch time: 17.51 seconds, Average time: 16.65 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [315/500]
+Train L2 Loss: 0.005182
+Train Deriv Loss: 0.057193
+val_loss: 0.005593
+val_linf: 0.019736
+LR: 0.000545
+Epoch time: 17.06 seconds, Average time: 16.65 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [316/500]
+Train L2 Loss: 0.005055
+Train Deriv Loss: 0.057790
+val_loss: 0.006442
+val_linf: 0.020147
+LR: 0.000540
+Epoch time: 16.64 seconds, Average time: 16.65 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [317/500]
+Train L2 Loss: 0.005927
+Train Deriv Loss: 0.060771
+val_loss: 0.005857
+val_linf: 0.019449
+LR: 0.000536
+Epoch time: 16.72 seconds, Average time: 16.65 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [318/500]
+Train L2 Loss: 0.004772
+Train Deriv Loss: 0.056438
+val_loss: 0.006581
+val_linf: 0.020092
+LR: 0.000531
+Epoch time: 16.57 seconds, Average time: 16.65 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [319/500]
+Train L2 Loss: 0.004701
+Train Deriv Loss: 0.055722
+val_loss: 0.006421
+val_linf: 0.019711
+LR: 0.000527
+Epoch time: 16.48 seconds, Average time: 16.65 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [320/500]
+Train L2 Loss: 0.004978
+Train Deriv Loss: 0.056770
+val_loss: 0.006934
+val_linf: 0.019623
+LR: 0.000522
+Epoch time: 16.52 seconds, Average time: 16.65 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [321/500]
+Train L2 Loss: 0.004684
+Train Deriv Loss: 0.055893
+val_loss: 0.006008
+val_linf: 0.019418
+LR: 0.000518
+Epoch time: 17.14 seconds, Average time: 16.65 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [322/500]
+Train L2 Loss: 0.005208
+Train Deriv Loss: 0.057785
+val_loss: 0.005561
+val_linf: 0.019149
+LR: 0.000513
+Epoch time: 17.27 seconds, Average time: 16.65 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [323/500]
+Train L2 Loss: 0.004832
+Train Deriv Loss: 0.056320
+val_loss: 0.005727
+val_linf: 0.019635
+LR: 0.000509
+Epoch time: 17.19 seconds, Average time: 16.65 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [324/500]
+Train L2 Loss: 0.004391
+Train Deriv Loss: 0.054626
+val_loss: 0.006559
+val_linf: 0.019527
+LR: 0.000504
+Epoch time: 17.42 seconds, Average time: 16.65 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [325/500]
+Train L2 Loss: 0.004435
+Train Deriv Loss: 0.055413
+val_loss: 0.006397
+val_linf: 0.019455
+LR: 0.000500
+Epoch time: 17.16 seconds, Average time: 16.65 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [326/500]
+Train L2 Loss: 0.004414
+Train Deriv Loss: 0.055335
+val_loss: 0.005547
+val_linf: 0.019692
+LR: 0.000495
+Epoch time: 17.39 seconds, Average time: 16.66 seconds
+================================================================
+
+-> Current best: Epoch 297, Val Score = 0.005504
+
+
+Epoch [327/500]
+Train L2 Loss: 0.004841
+Train Deriv Loss: 0.055970
+val_loss: 0.005420
+val_linf: 0.019360
+LR: 0.000491
+Epoch time: 17.38 seconds, Average time: 16.66 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.005420, after 30 epochs
+
+
+Epoch [328/500]
+Train L2 Loss: 0.004605
+Train Deriv Loss: 0.054920
+val_loss: 0.005924
+val_linf: 0.019267
+LR: 0.000487
+Epoch time: 17.14 seconds, Average time: 16.66 seconds
+================================================================
+
+-> Current best: Epoch 327, Val Score = 0.005420
+
+
+Epoch [329/500]
+Train L2 Loss: 0.004570
+Train Deriv Loss: 0.055554
+val_loss: 0.006188
+val_linf: 0.019764
+LR: 0.000482
+Epoch time: 17.18 seconds, Average time: 16.66 seconds
+================================================================
+
+-> Current best: Epoch 327, Val Score = 0.005420
+
+
+Epoch [330/500]
+Train L2 Loss: 0.004394
+Train Deriv Loss: 0.055456
+val_loss: 0.005821
+val_linf: 0.019115
+LR: 0.000478
+Epoch time: 16.90 seconds, Average time: 16.66 seconds
+================================================================
+
+-> Current best: Epoch 327, Val Score = 0.005420
+
+
+Epoch [331/500]
+Train L2 Loss: 0.004200
+Train Deriv Loss: 0.053845
+val_loss: 0.005266
+val_linf: 0.018836
+LR: 0.000473
+Epoch time: 16.83 seconds, Average time: 16.66 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.005266, after 4 epochs
+
+
+Epoch [332/500]
+Train L2 Loss: 0.004776
+Train Deriv Loss: 0.055744
+val_loss: 0.007816
+val_linf: 0.020344
+LR: 0.000469
+Epoch time: 17.19 seconds, Average time: 16.67 seconds
+================================================================
+
+-> Current best: Epoch 331, Val Score = 0.005266
+
+
+Epoch [333/500]
+Train L2 Loss: 0.004960
+Train Deriv Loss: 0.056426
+val_loss: 0.006286
+val_linf: 0.019450
+LR: 0.000464
+Epoch time: 17.01 seconds, Average time: 16.67 seconds
+================================================================
+
+-> Current best: Epoch 331, Val Score = 0.005266
+
+
+Epoch [334/500]
+Train L2 Loss: 0.004359
+Train Deriv Loss: 0.055051
+val_loss: 0.005444
+val_linf: 0.018921
+LR: 0.000460
+Epoch time: 16.97 seconds, Average time: 16.67 seconds
+================================================================
+
+-> Current best: Epoch 331, Val Score = 0.005266
+
+
+Epoch [335/500]
+Train L2 Loss: 0.004612
+Train Deriv Loss: 0.055567
+val_loss: 0.006619
+val_linf: 0.020062
+LR: 0.000455
+Epoch time: 17.06 seconds, Average time: 16.67 seconds
+================================================================
+
+-> Current best: Epoch 331, Val Score = 0.005266
+
+
+Epoch [336/500]
+Train L2 Loss: 0.004449
+Train Deriv Loss: 0.055071
+val_loss: 0.005720
+val_linf: 0.019369
+LR: 0.000451
+Epoch time: 17.16 seconds, Average time: 16.67 seconds
+================================================================
+
+-> Current best: Epoch 331, Val Score = 0.005266
+
+
+Epoch [337/500]
+Train L2 Loss: 0.004159
+Train Deriv Loss: 0.054760
+val_loss: 0.006096
+val_linf: 0.018981
+LR: 0.000446
+Epoch time: 17.35 seconds, Average time: 16.67 seconds
+================================================================
+
+-> Current best: Epoch 331, Val Score = 0.005266
+
+
+Epoch [338/500]
+Train L2 Loss: 0.004275
+Train Deriv Loss: 0.054075
+val_loss: 0.007001
+val_linf: 0.019756
+LR: 0.000442
+Epoch time: 16.92 seconds, Average time: 16.67 seconds
+================================================================
+
+-> Current best: Epoch 331, Val Score = 0.005266
+
+
+Epoch [339/500]
+Train L2 Loss: 0.004303
+Train Deriv Loss: 0.054173
+val_loss: 0.005646
+val_linf: 0.019263
+LR: 0.000437
+Epoch time: 17.06 seconds, Average time: 16.67 seconds
+================================================================
+
+-> Current best: Epoch 331, Val Score = 0.005266
+
+
+Epoch [340/500]
+Train L2 Loss: 0.004449
+Train Deriv Loss: 0.055135
+val_loss: 0.005751
+val_linf: 0.019300
+LR: 0.000433
+Epoch time: 17.37 seconds, Average time: 16.68 seconds
+================================================================
+
+-> Current best: Epoch 331, Val Score = 0.005266
+
+
+Epoch [341/500]
+Train L2 Loss: 0.004511
+Train Deriv Loss: 0.054923
+val_loss: 0.005760
+val_linf: 0.019243
+LR: 0.000428
+Epoch time: 17.23 seconds, Average time: 16.68 seconds
+================================================================
+
+-> Current best: Epoch 331, Val Score = 0.005266
+
+
+Epoch [342/500]
+Train L2 Loss: 0.003831
+Train Deriv Loss: 0.052545
+val_loss: 0.005320
+val_linf: 0.019314
+LR: 0.000424
+Epoch time: 16.58 seconds, Average time: 16.68 seconds
+================================================================
+
+-> Current best: Epoch 331, Val Score = 0.005266
+
+
+Epoch [343/500]
+Train L2 Loss: 0.003678
+Train Deriv Loss: 0.052493
+val_loss: 0.005133
+val_linf: 0.018826
+LR: 0.000420
+Epoch time: 17.28 seconds, Average time: 16.68 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.005133, after 12 epochs
+
+
+Epoch [344/500]
+Train L2 Loss: 0.003899
+Train Deriv Loss: 0.053123
+val_loss: 0.005714
+val_linf: 0.019327
+LR: 0.000415
+Epoch time: 16.84 seconds, Average time: 16.68 seconds
+================================================================
+
+-> Current best: Epoch 343, Val Score = 0.005133
+
+
+Epoch [345/500]
+Train L2 Loss: 0.004324
+Train Deriv Loss: 0.054525
+val_loss: 0.006707
+val_linf: 0.020188
+LR: 0.000411
+Epoch time: 17.05 seconds, Average time: 16.68 seconds
+================================================================
+
+-> Current best: Epoch 343, Val Score = 0.005133
+
+
+Epoch [346/500]
+Train L2 Loss: 0.003989
+Train Deriv Loss: 0.053269
+val_loss: 0.005457
+val_linf: 0.019132
+LR: 0.000406
+Epoch time: 17.19 seconds, Average time: 16.68 seconds
+================================================================
+
+-> Current best: Epoch 343, Val Score = 0.005133
+
+
+Epoch [347/500]
+Train L2 Loss: 0.003821
+Train Deriv Loss: 0.052679
+val_loss: 0.005922
+val_linf: 0.020430
+LR: 0.000402
+Epoch time: 16.85 seconds, Average time: 16.68 seconds
+================================================================
+
+-> Current best: Epoch 343, Val Score = 0.005133
+
+
+Epoch [348/500]
+Train L2 Loss: 0.004041
+Train Deriv Loss: 0.052572
+val_loss: 0.005132
+val_linf: 0.018985
+LR: 0.000397
+Epoch time: 16.92 seconds, Average time: 16.68 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.005132, after 5 epochs
+
+
+Epoch [349/500]
+Train L2 Loss: 0.004216
+Train Deriv Loss: 0.054011
+val_loss: 0.005255
+val_linf: 0.018962
+LR: 0.000393
+Epoch time: 17.20 seconds, Average time: 16.68 seconds
+================================================================
+
+-> Current best: Epoch 348, Val Score = 0.005132
+
+
+Epoch [350/500]
+Train L2 Loss: 0.004001
+Train Deriv Loss: 0.052184
+val_loss: 0.005513
+val_linf: 0.019304
+LR: 0.000389
+Epoch time: 17.33 seconds, Average time: 16.69 seconds
+================================================================
+
+-> Current best: Epoch 348, Val Score = 0.005132
+
+
+Epoch [351/500]
+Train L2 Loss: 0.003849
+Train Deriv Loss: 0.052384
+val_loss: 0.005806
+val_linf: 0.020109
+LR: 0.000384
+Epoch time: 17.45 seconds, Average time: 16.69 seconds
+================================================================
+
+-> Current best: Epoch 348, Val Score = 0.005132
+
+
+Epoch [352/500]
+Train L2 Loss: 0.003959
+Train Deriv Loss: 0.052198
+val_loss: 0.005528
+val_linf: 0.018848
+LR: 0.000380
+Epoch time: 16.88 seconds, Average time: 16.69 seconds
+================================================================
+
+-> Current best: Epoch 348, Val Score = 0.005132
+
+
+Epoch [353/500]
+Train L2 Loss: 0.003894
+Train Deriv Loss: 0.051942
+val_loss: 0.005211
+val_linf: 0.019081
+LR: 0.000376
+Epoch time: 16.85 seconds, Average time: 16.69 seconds
+================================================================
+
+-> Current best: Epoch 348, Val Score = 0.005132
+
+
+Epoch [354/500]
+Train L2 Loss: 0.003820
+Train Deriv Loss: 0.052663
+val_loss: 0.005229
+val_linf: 0.019345
+LR: 0.000371
+Epoch time: 16.52 seconds, Average time: 16.69 seconds
+================================================================
+
+-> Current best: Epoch 348, Val Score = 0.005132
+
+
+Epoch [355/500]
+Train L2 Loss: 0.003868
+Train Deriv Loss: 0.051990
+val_loss: 0.005137
+val_linf: 0.018921
+LR: 0.000367
+Epoch time: 17.02 seconds, Average time: 16.69 seconds
+================================================================
+
+-> Current best: Epoch 348, Val Score = 0.005132
+
+
+Epoch [356/500]
+Train L2 Loss: 0.003917
+Train Deriv Loss: 0.052281
+val_loss: 0.005915
+val_linf: 0.019635
+LR: 0.000363
+Epoch time: 16.81 seconds, Average time: 16.69 seconds
+================================================================
+
+-> Current best: Epoch 348, Val Score = 0.005132
+
+
+Epoch [357/500]
+Train L2 Loss: 0.003832
+Train Deriv Loss: 0.051701
+val_loss: 0.005376
+val_linf: 0.019143
+LR: 0.000358
+Epoch time: 17.08 seconds, Average time: 16.69 seconds
+================================================================
+
+-> Current best: Epoch 348, Val Score = 0.005132
+
+
+Epoch [358/500]
+Train L2 Loss: 0.003883
+Train Deriv Loss: 0.052193
+val_loss: 0.005270
+val_linf: 0.019070
+LR: 0.000354
+Epoch time: 16.85 seconds, Average time: 16.69 seconds
+================================================================
+
+-> Current best: Epoch 348, Val Score = 0.005132
+
+
+Epoch [359/500]
+Train L2 Loss: 0.003561
+Train Deriv Loss: 0.051256
+val_loss: 0.005261
+val_linf: 0.019319
+LR: 0.000350
+Epoch time: 17.12 seconds, Average time: 16.69 seconds
+================================================================
+
+-> Current best: Epoch 348, Val Score = 0.005132
+
+
+Epoch [360/500]
+Train L2 Loss: 0.003991
+Train Deriv Loss: 0.053461
+val_loss: 0.005153
+val_linf: 0.019057
+LR: 0.000345
+Epoch time: 17.02 seconds, Average time: 16.69 seconds
+================================================================
+
+-> Current best: Epoch 348, Val Score = 0.005132
+
+
+Epoch [361/500]
+Train L2 Loss: 0.003871
+Train Deriv Loss: 0.051899
+val_loss: 0.005562
+val_linf: 0.018990
+LR: 0.000341
+Epoch time: 16.65 seconds, Average time: 16.69 seconds
+================================================================
+
+-> Current best: Epoch 348, Val Score = 0.005132
+
+
+Epoch [362/500]
+Train L2 Loss: 0.003705
+Train Deriv Loss: 0.051722
+val_loss: 0.005770
+val_linf: 0.019160
+LR: 0.000337
+Epoch time: 16.75 seconds, Average time: 16.69 seconds
+================================================================
+
+-> Current best: Epoch 348, Val Score = 0.005132
+
+
+Epoch [363/500]
+Train L2 Loss: 0.003622
+Train Deriv Loss: 0.051574
+val_loss: 0.005299
+val_linf: 0.019009
+LR: 0.000333
+Epoch time: 17.58 seconds, Average time: 16.70 seconds
+================================================================
+
+-> Current best: Epoch 348, Val Score = 0.005132
+
+
+Epoch [364/500]
+Train L2 Loss: 0.003581
+Train Deriv Loss: 0.051312
+val_loss: 0.005267
+val_linf: 0.019066
+LR: 0.000329
+Epoch time: 17.02 seconds, Average time: 16.70 seconds
+================================================================
+
+-> Current best: Epoch 348, Val Score = 0.005132
+
+
+Epoch [365/500]
+Train L2 Loss: 0.003527
+Train Deriv Loss: 0.051629
+val_loss: 0.005082
+val_linf: 0.019001
+LR: 0.000324
+Epoch time: 17.21 seconds, Average time: 16.70 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.005082, after 17 epochs
+
+
+Epoch [366/500]
+Train L2 Loss: 0.003585
+Train Deriv Loss: 0.050990
+val_loss: 0.004921
+val_linf: 0.019013
+LR: 0.000320
+Epoch time: 17.13 seconds, Average time: 16.70 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.004921, after 1 epochs
+
+
+Epoch [367/500]
+Train L2 Loss: 0.003491
+Train Deriv Loss: 0.051468
+val_loss: 0.005409
+val_linf: 0.018958
+LR: 0.000316
+Epoch time: 16.87 seconds, Average time: 16.70 seconds
+================================================================
+
+-> Current best: Epoch 366, Val Score = 0.004921
+
+
+Epoch [368/500]
+Train L2 Loss: 0.003162
+Train Deriv Loss: 0.050060
+val_loss: 0.005103
+val_linf: 0.018716
+LR: 0.000312
+Epoch time: 17.04 seconds, Average time: 16.70 seconds
+================================================================
+
+-> Current best: Epoch 366, Val Score = 0.004921
+
+
+Epoch [369/500]
+Train L2 Loss: 0.003303
+Train Deriv Loss: 0.050627
+val_loss: 0.005399
+val_linf: 0.019424
+LR: 0.000308
+Epoch time: 17.22 seconds, Average time: 16.70 seconds
+================================================================
+
+-> Current best: Epoch 366, Val Score = 0.004921
+
+
+Epoch [370/500]
+Train L2 Loss: 0.003373
+Train Deriv Loss: 0.050480
+val_loss: 0.004970
+val_linf: 0.018966
+LR: 0.000303
+Epoch time: 17.14 seconds, Average time: 16.70 seconds
+================================================================
+
+-> Current best: Epoch 366, Val Score = 0.004921
+
+
+Epoch [371/500]
+Train L2 Loss: 0.003056
+Train Deriv Loss: 0.049847
+val_loss: 0.004901
+val_linf: 0.018951
+LR: 0.000299
+Epoch time: 16.77 seconds, Average time: 16.70 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.004901, after 5 epochs
+
+
+Epoch [372/500]
+Train L2 Loss: 0.003360
+Train Deriv Loss: 0.050471
+val_loss: 0.005086
+val_linf: 0.018880
+LR: 0.000295
+Epoch time: 16.74 seconds, Average time: 16.70 seconds
+================================================================
+
+-> Current best: Epoch 371, Val Score = 0.004901
+
+
+Epoch [373/500]
+Train L2 Loss: 0.003385
+Train Deriv Loss: 0.050548
+val_loss: 0.005244
+val_linf: 0.018995
+LR: 0.000291
+Epoch time: 17.04 seconds, Average time: 16.70 seconds
+================================================================
+
+-> Current best: Epoch 371, Val Score = 0.004901
+
+
+Epoch [374/500]
+Train L2 Loss: 0.003315
+Train Deriv Loss: 0.050240
+val_loss: 0.005474
+val_linf: 0.019360
+LR: 0.000287
+Epoch time: 16.71 seconds, Average time: 16.70 seconds
+================================================================
+
+-> Current best: Epoch 371, Val Score = 0.004901
+
+
+Epoch [375/500]
+Train L2 Loss: 0.003182
+Train Deriv Loss: 0.049793
+val_loss: 0.005021
+val_linf: 0.019011
+LR: 0.000283
+Epoch time: 17.07 seconds, Average time: 16.71 seconds
+================================================================
+
+-> Current best: Epoch 371, Val Score = 0.004901
+
+
+Epoch [376/500]
+Train L2 Loss: 0.003200
+Train Deriv Loss: 0.050082
+val_loss: 0.005605
+val_linf: 0.019150
+LR: 0.000279
+Epoch time: 17.36 seconds, Average time: 16.71 seconds
+================================================================
+
+-> Current best: Epoch 371, Val Score = 0.004901
+
+
+Epoch [377/500]
+Train L2 Loss: 0.003240
+Train Deriv Loss: 0.049898
+val_loss: 0.005102
+val_linf: 0.019174
+LR: 0.000275
+Epoch time: 17.29 seconds, Average time: 16.71 seconds
+================================================================
+
+-> Current best: Epoch 371, Val Score = 0.004901
+
+
+Epoch [378/500]
+Train L2 Loss: 0.003164
+Train Deriv Loss: 0.049629
+val_loss: 0.005449
+val_linf: 0.019580
+LR: 0.000271
+Epoch time: 17.05 seconds, Average time: 16.71 seconds
+================================================================
+
+-> Current best: Epoch 371, Val Score = 0.004901
+
+
+Epoch [379/500]
+Train L2 Loss: 0.003233
+Train Deriv Loss: 0.049871
+val_loss: 0.004884
+val_linf: 0.018869
+LR: 0.000267
+Epoch time: 16.79 seconds, Average time: 16.71 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.004884, after 8 epochs
+
+
+Epoch [380/500]
+Train L2 Loss: 0.003007
+Train Deriv Loss: 0.049099
+val_loss: 0.005195
+val_linf: 0.019412
+LR: 0.000263
+Epoch time: 17.05 seconds, Average time: 16.71 seconds
+================================================================
+
+-> Current best: Epoch 379, Val Score = 0.004884
+
+
+Epoch [381/500]
+Train L2 Loss: 0.003202
+Train Deriv Loss: 0.049198
+val_loss: 0.005205
+val_linf: 0.019246
+LR: 0.000259
+Epoch time: 16.88 seconds, Average time: 16.71 seconds
+================================================================
+
+-> Current best: Epoch 379, Val Score = 0.004884
+
+
+Epoch [382/500]
+Train L2 Loss: 0.003170
+Train Deriv Loss: 0.049470
+val_loss: 0.004989
+val_linf: 0.018815
+LR: 0.000255
+Epoch time: 16.91 seconds, Average time: 16.71 seconds
+================================================================
+
+-> Current best: Epoch 379, Val Score = 0.004884
+
+
+Epoch [383/500]
+Train L2 Loss: 0.002861
+Train Deriv Loss: 0.048728
+val_loss: 0.004949
+val_linf: 0.019098
+LR: 0.000251
+Epoch time: 17.07 seconds, Average time: 16.71 seconds
+================================================================
+
+-> Current best: Epoch 379, Val Score = 0.004884
+
+
+Epoch [384/500]
+Train L2 Loss: 0.002929
+Train Deriv Loss: 0.048875
+val_loss: 0.004894
+val_linf: 0.019018
+LR: 0.000247
+Epoch time: 17.17 seconds, Average time: 16.71 seconds
+================================================================
+
+-> Current best: Epoch 379, Val Score = 0.004884
+
+
+Epoch [385/500]
+Train L2 Loss: 0.003053
+Train Deriv Loss: 0.048838
+val_loss: 0.005427
+val_linf: 0.019188
+LR: 0.000244
+Epoch time: 17.13 seconds, Average time: 16.72 seconds
+================================================================
+
+-> Current best: Epoch 379, Val Score = 0.004884
+
+
+Epoch [386/500]
+Train L2 Loss: 0.002959
+Train Deriv Loss: 0.048891
+val_loss: 0.005012
+val_linf: 0.018908
+LR: 0.000240
+Epoch time: 17.10 seconds, Average time: 16.72 seconds
+================================================================
+
+-> Current best: Epoch 379, Val Score = 0.004884
+
+
+Epoch [387/500]
+Train L2 Loss: 0.002859
+Train Deriv Loss: 0.048272
+val_loss: 0.005610
+val_linf: 0.019010
+LR: 0.000236
+Epoch time: 16.98 seconds, Average time: 16.72 seconds
+================================================================
+
+-> Current best: Epoch 379, Val Score = 0.004884
+
+
+Epoch [388/500]
+Train L2 Loss: 0.003039
+Train Deriv Loss: 0.048377
+val_loss: 0.004987
+val_linf: 0.018954
+LR: 0.000232
+Epoch time: 16.71 seconds, Average time: 16.72 seconds
+================================================================
+
+-> Current best: Epoch 379, Val Score = 0.004884
+
+
+Epoch [389/500]
+Train L2 Loss: 0.002906
+Train Deriv Loss: 0.048700
+val_loss: 0.005459
+val_linf: 0.019184
+LR: 0.000228
+Epoch time: 16.91 seconds, Average time: 16.72 seconds
+================================================================
+
+-> Current best: Epoch 379, Val Score = 0.004884
+
+
+Epoch [390/500]
+Train L2 Loss: 0.003110
+Train Deriv Loss: 0.049163
+val_loss: 0.005004
+val_linf: 0.019189
+LR: 0.000225
+Epoch time: 18.27 seconds, Average time: 16.72 seconds
+================================================================
+
+-> Current best: Epoch 379, Val Score = 0.004884
+
+
+Epoch [391/500]
+Train L2 Loss: 0.002973
+Train Deriv Loss: 0.048860
+val_loss: 0.005087
+val_linf: 0.019158
+LR: 0.000221
+Epoch time: 18.51 seconds, Average time: 16.73 seconds
+================================================================
+
+-> Current best: Epoch 379, Val Score = 0.004884
+
+
+Epoch [392/500]
+Train L2 Loss: 0.003013
+Train Deriv Loss: 0.048569
+val_loss: 0.004963
+val_linf: 0.019209
+LR: 0.000217
+Epoch time: 17.51 seconds, Average time: 16.73 seconds
+================================================================
+
+-> Current best: Epoch 379, Val Score = 0.004884
+
+
+Epoch [393/500]
+Train L2 Loss: 0.002765
+Train Deriv Loss: 0.048108
+val_loss: 0.005684
+val_linf: 0.018974
+LR: 0.000213
+Epoch time: 18.33 seconds, Average time: 16.73 seconds
+================================================================
+
+-> Current best: Epoch 379, Val Score = 0.004884
+
+
+Epoch [394/500]
+Train L2 Loss: 0.002723
+Train Deriv Loss: 0.047910
+val_loss: 0.005008
+val_linf: 0.019111
+LR: 0.000210
+Epoch time: 18.32 seconds, Average time: 16.74 seconds
+================================================================
+
+-> Current best: Epoch 379, Val Score = 0.004884
+
+
+Epoch [395/500]
+Train L2 Loss: 0.002776
+Train Deriv Loss: 0.048044
+val_loss: 0.004919
+val_linf: 0.019053
+LR: 0.000206
+Epoch time: 17.17 seconds, Average time: 16.74 seconds
+================================================================
+
+-> Current best: Epoch 379, Val Score = 0.004884
+
+
+Epoch [396/500]
+Train L2 Loss: 0.002755
+Train Deriv Loss: 0.048118
+val_loss: 0.004775
+val_linf: 0.019026
+LR: 0.000202
+Epoch time: 17.46 seconds, Average time: 16.74 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.004775, after 17 epochs
+
+
+Epoch [397/500]
+Train L2 Loss: 0.002660
+Train Deriv Loss: 0.047838
+val_loss: 0.004914
+val_linf: 0.018933
+LR: 0.000199
+Epoch time: 17.47 seconds, Average time: 16.74 seconds
+================================================================
+
+-> Current best: Epoch 396, Val Score = 0.004775
+
+
+Epoch [398/500]
+Train L2 Loss: 0.002580
+Train Deriv Loss: 0.047421
+val_loss: 0.004864
+val_linf: 0.019185
+LR: 0.000195
+Epoch time: 17.29 seconds, Average time: 16.74 seconds
+================================================================
+
+-> Current best: Epoch 396, Val Score = 0.004775
+
+
+Epoch [399/500]
+Train L2 Loss: 0.002582
+Train Deriv Loss: 0.047342
+val_loss: 0.005404
+val_linf: 0.018910
+LR: 0.000192
+Epoch time: 17.59 seconds, Average time: 16.74 seconds
+================================================================
+
+-> Current best: Epoch 396, Val Score = 0.004775
+
+
+Epoch [400/500]
+Train L2 Loss: 0.002674
+Train Deriv Loss: 0.047843
+val_loss: 0.005047
+val_linf: 0.019080
+LR: 0.000188
+Epoch time: 17.34 seconds, Average time: 16.75 seconds
+================================================================
+
+-> Current best: Epoch 396, Val Score = 0.004775
+
+
+Epoch [401/500]
+Train L2 Loss: 0.002761
+Train Deriv Loss: 0.047704
+val_loss: 0.004967
+val_linf: 0.019121
+LR: 0.000185
+Epoch time: 17.69 seconds, Average time: 16.75 seconds
+================================================================
+
+-> Current best: Epoch 396, Val Score = 0.004775
+
+
+Epoch [402/500]
+Train L2 Loss: 0.002659
+Train Deriv Loss: 0.047394
+val_loss: 0.004711
+val_linf: 0.019007
+LR: 0.000181
+Epoch time: 18.72 seconds, Average time: 16.75 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.004711, after 6 epochs
+
+
+Epoch [403/500]
+Train L2 Loss: 0.002746
+Train Deriv Loss: 0.047753
+val_loss: 0.005115
+val_linf: 0.019196
+LR: 0.000178
+Epoch time: 18.25 seconds, Average time: 16.76 seconds
+================================================================
+
+-> Current best: Epoch 402, Val Score = 0.004711
+
+
+Epoch [404/500]
+Train L2 Loss: 0.002711
+Train Deriv Loss: 0.047558
+val_loss: 0.004749
+val_linf: 0.019124
+LR: 0.000174
+Epoch time: 17.56 seconds, Average time: 16.76 seconds
+================================================================
+
+-> Current best: Epoch 402, Val Score = 0.004711
+
+
+Epoch [405/500]
+Train L2 Loss: 0.002564
+Train Deriv Loss: 0.047160
+val_loss: 0.004811
+val_linf: 0.019130
+LR: 0.000171
+Epoch time: 16.94 seconds, Average time: 16.76 seconds
+================================================================
+
+-> Current best: Epoch 402, Val Score = 0.004711
+
+
+Epoch [406/500]
+Train L2 Loss: 0.002478
+Train Deriv Loss: 0.047032
+val_loss: 0.004847
+val_linf: 0.019039
+LR: 0.000168
+Epoch time: 16.91 seconds, Average time: 16.76 seconds
+================================================================
+
+-> Current best: Epoch 402, Val Score = 0.004711
+
+
+Epoch [407/500]
+Train L2 Loss: 0.002479
+Train Deriv Loss: 0.047125
+val_loss: 0.004752
+val_linf: 0.019238
+LR: 0.000164
+Epoch time: 16.88 seconds, Average time: 16.76 seconds
+================================================================
+
+-> Current best: Epoch 402, Val Score = 0.004711
+
+
+Epoch [408/500]
+Train L2 Loss: 0.002507
+Train Deriv Loss: 0.046948
+val_loss: 0.005281
+val_linf: 0.019405
+LR: 0.000161
+Epoch time: 17.03 seconds, Average time: 16.76 seconds
+================================================================
+
+-> Current best: Epoch 402, Val Score = 0.004711
+
+
+Epoch [409/500]
+Train L2 Loss: 0.002546
+Train Deriv Loss: 0.047036
+val_loss: 0.004971
+val_linf: 0.019386
+LR: 0.000158
+Epoch time: 17.65 seconds, Average time: 16.76 seconds
+================================================================
+
+-> Current best: Epoch 402, Val Score = 0.004711
+
+
+Epoch [410/500]
+Train L2 Loss: 0.002475
+Train Deriv Loss: 0.046801
+val_loss: 0.005076
+val_linf: 0.018966
+LR: 0.000154
+Epoch time: 16.90 seconds, Average time: 16.76 seconds
+================================================================
+
+-> Current best: Epoch 402, Val Score = 0.004711
+
+
+Epoch [411/500]
+Train L2 Loss: 0.002474
+Train Deriv Loss: 0.046900
+val_loss: 0.004700
+val_linf: 0.019027
+LR: 0.000151
+Epoch time: 16.85 seconds, Average time: 16.76 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.004700, after 9 epochs
+
+
+Epoch [412/500]
+Train L2 Loss: 0.002439
+Train Deriv Loss: 0.046887
+val_loss: 0.004873
+val_linf: 0.019121
+LR: 0.000148
+Epoch time: 16.70 seconds, Average time: 16.76 seconds
+================================================================
+
+-> Current best: Epoch 411, Val Score = 0.004700
+
+
+Epoch [413/500]
+Train L2 Loss: 0.002432
+Train Deriv Loss: 0.046719
+val_loss: 0.004888
+val_linf: 0.019123
+LR: 0.000145
+Epoch time: 17.39 seconds, Average time: 16.76 seconds
+================================================================
+
+-> Current best: Epoch 411, Val Score = 0.004700
+
+
+Epoch [414/500]
+Train L2 Loss: 0.002476
+Train Deriv Loss: 0.046646
+val_loss: 0.004809
+val_linf: 0.019073
+LR: 0.000142
+Epoch time: 16.58 seconds, Average time: 16.76 seconds
+================================================================
+
+-> Current best: Epoch 411, Val Score = 0.004700
+
+
+Epoch [415/500]
+Train L2 Loss: 0.002349
+Train Deriv Loss: 0.046614
+val_loss: 0.004870
+val_linf: 0.019079
+LR: 0.000139
+Epoch time: 16.61 seconds, Average time: 16.76 seconds
+================================================================
+
+-> Current best: Epoch 411, Val Score = 0.004700
+
+
+Epoch [416/500]
+Train L2 Loss: 0.002388
+Train Deriv Loss: 0.046564
+val_loss: 0.004651
+val_linf: 0.018960
+LR: 0.000136
+Epoch time: 16.84 seconds, Average time: 16.76 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.004651, after 5 epochs
+
+
+Epoch [417/500]
+Train L2 Loss: 0.002330
+Train Deriv Loss: 0.046325
+val_loss: 0.004692
+val_linf: 0.019115
+LR: 0.000132
+Epoch time: 18.06 seconds, Average time: 16.77 seconds
+================================================================
+
+-> Current best: Epoch 416, Val Score = 0.004651
+
+
+Epoch [418/500]
+Train L2 Loss: 0.002333
+Train Deriv Loss: 0.046373
+val_loss: 0.004800
+val_linf: 0.019153
+LR: 0.000129
+Epoch time: 17.05 seconds, Average time: 16.77 seconds
+================================================================
+
+-> Current best: Epoch 416, Val Score = 0.004651
+
+
+Epoch [419/500]
+Train L2 Loss: 0.002373
+Train Deriv Loss: 0.046594
+val_loss: 0.004744
+val_linf: 0.019131
+LR: 0.000126
+Epoch time: 16.95 seconds, Average time: 16.77 seconds
+================================================================
+
+-> Current best: Epoch 416, Val Score = 0.004651
+
+
+Epoch [420/500]
+Train L2 Loss: 0.002361
+Train Deriv Loss: 0.046415
+val_loss: 0.004714
+val_linf: 0.019033
+LR: 0.000123
+Epoch time: 16.81 seconds, Average time: 16.77 seconds
+================================================================
+
+-> Current best: Epoch 416, Val Score = 0.004651
+
+
+Epoch [421/500]
+Train L2 Loss: 0.002303
+Train Deriv Loss: 0.046281
+val_loss: 0.004858
+val_linf: 0.018997
+LR: 0.000121
+Epoch time: 16.98 seconds, Average time: 16.77 seconds
+================================================================
+
+-> Current best: Epoch 416, Val Score = 0.004651
+
+
+Epoch [422/500]
+Train L2 Loss: 0.002314
+Train Deriv Loss: 0.046239
+val_loss: 0.004761
+val_linf: 0.019099
+LR: 0.000118
+Epoch time: 16.83 seconds, Average time: 16.77 seconds
+================================================================
+
+-> Current best: Epoch 416, Val Score = 0.004651
+
+
+Epoch [423/500]
+Train L2 Loss: 0.002245
+Train Deriv Loss: 0.046056
+val_loss: 0.004798
+val_linf: 0.019301
+LR: 0.000115
+Epoch time: 16.84 seconds, Average time: 16.77 seconds
+================================================================
+
+-> Current best: Epoch 416, Val Score = 0.004651
+
+
+Epoch [424/500]
+Train L2 Loss: 0.002263
+Train Deriv Loss: 0.046146
+val_loss: 0.004665
+val_linf: 0.019118
+LR: 0.000112
+Epoch time: 16.64 seconds, Average time: 16.77 seconds
+================================================================
+
+-> Current best: Epoch 416, Val Score = 0.004651
+
+
+Epoch [425/500]
+Train L2 Loss: 0.002296
+Train Deriv Loss: 0.045991
+val_loss: 0.004797
+val_linf: 0.019079
+LR: 0.000109
+Epoch time: 16.59 seconds, Average time: 16.77 seconds
+================================================================
+
+-> Current best: Epoch 416, Val Score = 0.004651
+
+
+Epoch [426/500]
+Train L2 Loss: 0.002236
+Train Deriv Loss: 0.045892
+val_loss: 0.004672
+val_linf: 0.019146
+LR: 0.000106
+Epoch time: 17.02 seconds, Average time: 16.77 seconds
+================================================================
+
+-> Current best: Epoch 416, Val Score = 0.004651
+
+
+Epoch [427/500]
+Train L2 Loss: 0.002267
+Train Deriv Loss: 0.046004
+val_loss: 0.004716
+val_linf: 0.019174
+LR: 0.000104
+Epoch time: 17.25 seconds, Average time: 16.77 seconds
+================================================================
+
+-> Current best: Epoch 416, Val Score = 0.004651
+
+
+Epoch [428/500]
+Train L2 Loss: 0.002208
+Train Deriv Loss: 0.045891
+val_loss: 0.004647
+val_linf: 0.018988
+LR: 0.000101
+Epoch time: 17.47 seconds, Average time: 16.77 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.004647, after 12 epochs
+
+
+Epoch [429/500]
+Train L2 Loss: 0.002144
+Train Deriv Loss: 0.045778
+val_loss: 0.004718
+val_linf: 0.019120
+LR: 0.000098
+Epoch time: 16.63 seconds, Average time: 16.77 seconds
+================================================================
+
+-> Current best: Epoch 428, Val Score = 0.004647
+
+
+Epoch [430/500]
+Train L2 Loss: 0.002213
+Train Deriv Loss: 0.045901
+val_loss: 0.004775
+val_linf: 0.019233
+LR: 0.000095
+Epoch time: 16.87 seconds, Average time: 16.77 seconds
+================================================================
+
+-> Current best: Epoch 428, Val Score = 0.004647
+
+
+Epoch [431/500]
+Train L2 Loss: 0.002235
+Train Deriv Loss: 0.045940
+val_loss: 0.004740
+val_linf: 0.019183
+LR: 0.000093
+Epoch time: 16.83 seconds, Average time: 16.77 seconds
+================================================================
+
+-> Current best: Epoch 428, Val Score = 0.004647
+
+
+Epoch [432/500]
+Train L2 Loss: 0.002142
+Train Deriv Loss: 0.045636
+val_loss: 0.004788
+val_linf: 0.019224
+LR: 0.000090
+Epoch time: 16.53 seconds, Average time: 16.77 seconds
+================================================================
+
+-> Current best: Epoch 428, Val Score = 0.004647
+
+
+Epoch [433/500]
+Train L2 Loss: 0.002120
+Train Deriv Loss: 0.045537
+val_loss: 0.004656
+val_linf: 0.019127
+LR: 0.000088
+Epoch time: 16.95 seconds, Average time: 16.77 seconds
+================================================================
+
+-> Current best: Epoch 428, Val Score = 0.004647
+
+
+Epoch [434/500]
+Train L2 Loss: 0.002160
+Train Deriv Loss: 0.045663
+val_loss: 0.004642
+val_linf: 0.019164
+LR: 0.000085
+Epoch time: 16.63 seconds, Average time: 16.77 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.004642, after 6 epochs
+
+
+Epoch [435/500]
+Train L2 Loss: 0.002131
+Train Deriv Loss: 0.045522
+val_loss: 0.004690
+val_linf: 0.019273
+LR: 0.000083
+Epoch time: 17.12 seconds, Average time: 16.77 seconds
+================================================================
+
+-> Current best: Epoch 434, Val Score = 0.004642
+
+
+Epoch [436/500]
+Train L2 Loss: 0.002121
+Train Deriv Loss: 0.045425
+val_loss: 0.004690
+val_linf: 0.019236
+LR: 0.000080
+Epoch time: 17.28 seconds, Average time: 16.77 seconds
+================================================================
+
+-> Current best: Epoch 434, Val Score = 0.004642
+
+
+Epoch [437/500]
+Train L2 Loss: 0.002079
+Train Deriv Loss: 0.045395
+val_loss: 0.004674
+val_linf: 0.019260
+LR: 0.000078
+Epoch time: 16.96 seconds, Average time: 16.77 seconds
+================================================================
+
+-> Current best: Epoch 434, Val Score = 0.004642
+
+
+Epoch [438/500]
+Train L2 Loss: 0.002088
+Train Deriv Loss: 0.045359
+val_loss: 0.004711
+val_linf: 0.019023
+LR: 0.000075
+Epoch time: 16.84 seconds, Average time: 16.77 seconds
+================================================================
+
+-> Current best: Epoch 434, Val Score = 0.004642
+
+
+Epoch [439/500]
+Train L2 Loss: 0.002143
+Train Deriv Loss: 0.045414
+val_loss: 0.004652
+val_linf: 0.019223
+LR: 0.000073
+Epoch time: 17.25 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 434, Val Score = 0.004642
+
+
+Epoch [440/500]
+Train L2 Loss: 0.002064
+Train Deriv Loss: 0.045271
+val_loss: 0.004675
+val_linf: 0.019230
+LR: 0.000071
+Epoch time: 16.96 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 434, Val Score = 0.004642
+
+
+Epoch [441/500]
+Train L2 Loss: 0.002085
+Train Deriv Loss: 0.045330
+val_loss: 0.004742
+val_linf: 0.019129
+LR: 0.000068
+Epoch time: 16.86 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 434, Val Score = 0.004642
+
+
+Epoch [442/500]
+Train L2 Loss: 0.002068
+Train Deriv Loss: 0.045246
+val_loss: 0.004635
+val_linf: 0.019223
+LR: 0.000066
+Epoch time: 17.02 seconds, Average time: 16.78 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.004635, after 8 epochs
+
+
+Epoch [443/500]
+Train L2 Loss: 0.002069
+Train Deriv Loss: 0.045193
+val_loss: 0.004640
+val_linf: 0.019127
+LR: 0.000064
+Epoch time: 17.34 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 442, Val Score = 0.004635
+
+
+Epoch [444/500]
+Train L2 Loss: 0.002041
+Train Deriv Loss: 0.045134
+val_loss: 0.004674
+val_linf: 0.019183
+LR: 0.000062
+Epoch time: 17.51 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 442, Val Score = 0.004635
+
+
+Epoch [445/500]
+Train L2 Loss: 0.002060
+Train Deriv Loss: 0.045120
+val_loss: 0.004631
+val_linf: 0.019178
+LR: 0.000060
+Epoch time: 17.73 seconds, Average time: 16.78 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.004631, after 3 epochs
+
+
+Epoch [446/500]
+Train L2 Loss: 0.002040
+Train Deriv Loss: 0.045065
+val_loss: 0.004619
+val_linf: 0.019099
+LR: 0.000058
+Epoch time: 17.56 seconds, Average time: 16.78 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.004619, after 1 epochs
+
+
+Epoch [447/500]
+Train L2 Loss: 0.002016
+Train Deriv Loss: 0.045039
+val_loss: 0.004628
+val_linf: 0.019200
+LR: 0.000056
+Epoch time: 16.56 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 446, Val Score = 0.004619
+
+
+Epoch [448/500]
+Train L2 Loss: 0.002024
+Train Deriv Loss: 0.045117
+val_loss: 0.004613
+val_linf: 0.019132
+LR: 0.000053
+Epoch time: 17.19 seconds, Average time: 16.78 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.004613, after 2 epochs
+
+
+Epoch [449/500]
+Train L2 Loss: 0.002002
+Train Deriv Loss: 0.044999
+val_loss: 0.004646
+val_linf: 0.019175
+LR: 0.000051
+Epoch time: 17.27 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 448, Val Score = 0.004613
+
+
+Epoch [450/500]
+Train L2 Loss: 0.001998
+Train Deriv Loss: 0.044945
+val_loss: 0.004637
+val_linf: 0.019194
+LR: 0.000050
+Epoch time: 17.28 seconds, Average time: 16.79 seconds
+================================================================
+
+-> Current best: Epoch 448, Val Score = 0.004613
+
+
+Epoch [451/500]
+Train L2 Loss: 0.002002
+Train Deriv Loss: 0.044939
+val_loss: 0.004695
+val_linf: 0.019233
+LR: 0.000048
+Epoch time: 17.61 seconds, Average time: 16.79 seconds
+================================================================
+
+-> Current best: Epoch 448, Val Score = 0.004613
+
+
+Epoch [452/500]
+Train L2 Loss: 0.002003
+Train Deriv Loss: 0.044921
+val_loss: 0.004683
+val_linf: 0.019133
+LR: 0.000046
+Epoch time: 17.16 seconds, Average time: 16.79 seconds
+================================================================
+
+-> Current best: Epoch 448, Val Score = 0.004613
+
+
+Epoch [453/500]
+Train L2 Loss: 0.001982
+Train Deriv Loss: 0.044851
+val_loss: 0.004643
+val_linf: 0.019212
+LR: 0.000044
+Epoch time: 16.86 seconds, Average time: 16.79 seconds
+================================================================
+
+-> Current best: Epoch 448, Val Score = 0.004613
+
+
+Epoch [454/500]
+Train L2 Loss: 0.001990
+Train Deriv Loss: 0.044838
+val_loss: 0.004649
+val_linf: 0.019169
+LR: 0.000042
+Epoch time: 16.57 seconds, Average time: 16.79 seconds
+================================================================
+
+-> Current best: Epoch 448, Val Score = 0.004613
+
+
+Epoch [455/500]
+Train L2 Loss: 0.001969
+Train Deriv Loss: 0.044819
+val_loss: 0.004601
+val_linf: 0.019178
+LR: 0.000040
+Epoch time: 17.39 seconds, Average time: 16.79 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.004601, after 7 epochs
+
+
+Epoch [456/500]
+Train L2 Loss: 0.001957
+Train Deriv Loss: 0.044774
+val_loss: 0.004641
+val_linf: 0.019159
+LR: 0.000038
+Epoch time: 17.01 seconds, Average time: 16.79 seconds
+================================================================
+
+-> Current best: Epoch 455, Val Score = 0.004601
+
+
+Epoch [457/500]
+Train L2 Loss: 0.001956
+Train Deriv Loss: 0.044719
+val_loss: 0.004606
+val_linf: 0.019250
+LR: 0.000037
+Epoch time: 17.36 seconds, Average time: 16.79 seconds
+================================================================
+
+-> Current best: Epoch 455, Val Score = 0.004601
+
+
+Epoch [458/500]
+Train L2 Loss: 0.001946
+Train Deriv Loss: 0.044698
+val_loss: 0.004641
+val_linf: 0.019249
+LR: 0.000035
+Epoch time: 16.86 seconds, Average time: 16.79 seconds
+================================================================
+
+-> Current best: Epoch 455, Val Score = 0.004601
+
+
+Epoch [459/500]
+Train L2 Loss: 0.001943
+Train Deriv Loss: 0.044694
+val_loss: 0.004600
+val_linf: 0.019225
+LR: 0.000033
+Epoch time: 17.48 seconds, Average time: 16.79 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.004600, after 4 epochs
+
+
+Epoch [460/500]
+Train L2 Loss: 0.001939
+Train Deriv Loss: 0.044704
+val_loss: 0.004604
+val_linf: 0.019239
+LR: 0.000032
+Epoch time: 16.86 seconds, Average time: 16.79 seconds
+================================================================
+
+-> Current best: Epoch 459, Val Score = 0.004600
+
+
+Epoch [461/500]
+Train L2 Loss: 0.001939
+Train Deriv Loss: 0.044651
+val_loss: 0.004615
+val_linf: 0.019274
+LR: 0.000030
+Epoch time: 16.55 seconds, Average time: 16.79 seconds
+================================================================
+
+-> Current best: Epoch 459, Val Score = 0.004600
+
+
+Epoch [462/500]
+Train L2 Loss: 0.001932
+Train Deriv Loss: 0.044613
+val_loss: 0.004622
+val_linf: 0.019235
+LR: 0.000029
+Epoch time: 16.58 seconds, Average time: 16.79 seconds
+================================================================
+
+-> Current best: Epoch 459, Val Score = 0.004600
+
+
+Epoch [463/500]
+Train L2 Loss: 0.001928
+Train Deriv Loss: 0.044596
+val_loss: 0.004629
+val_linf: 0.019205
+LR: 0.000027
+Epoch time: 16.68 seconds, Average time: 16.79 seconds
+================================================================
+
+-> Current best: Epoch 459, Val Score = 0.004600
+
+
+Epoch [464/500]
+Train L2 Loss: 0.001917
+Train Deriv Loss: 0.044578
+val_loss: 0.004641
+val_linf: 0.019258
+LR: 0.000026
+Epoch time: 16.62 seconds, Average time: 16.79 seconds
+================================================================
+
+-> Current best: Epoch 459, Val Score = 0.004600
+
+
+Epoch [465/500]
+Train L2 Loss: 0.001915
+Train Deriv Loss: 0.044584
+val_loss: 0.004612
+val_linf: 0.019224
+LR: 0.000024
+Epoch time: 16.36 seconds, Average time: 16.79 seconds
+================================================================
+
+-> Current best: Epoch 459, Val Score = 0.004600
+
+
+Epoch [466/500]
+Train L2 Loss: 0.001908
+Train Deriv Loss: 0.044537
+val_loss: 0.004610
+val_linf: 0.019249
+LR: 0.000023
+Epoch time: 16.33 seconds, Average time: 16.79 seconds
+================================================================
+
+-> Current best: Epoch 459, Val Score = 0.004600
+
+
+Epoch [467/500]
+Train L2 Loss: 0.001902
+Train Deriv Loss: 0.044510
+val_loss: 0.004589
+val_linf: 0.019208
+LR: 0.000022
+Epoch time: 16.47 seconds, Average time: 16.79 seconds
+================================================================
+
+-> New best model saved! Val Score = 0.004589, after 8 epochs
+
+
+Epoch [468/500]
+Train L2 Loss: 0.001902
+Train Deriv Loss: 0.044496
+val_loss: 0.004635
+val_linf: 0.019175
+LR: 0.000020
+Epoch time: 16.60 seconds, Average time: 16.79 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [469/500]
+Train L2 Loss: 0.001901
+Train Deriv Loss: 0.044483
+val_loss: 0.004628
+val_linf: 0.019280
+LR: 0.000019
+Epoch time: 16.70 seconds, Average time: 16.79 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [470/500]
+Train L2 Loss: 0.001895
+Train Deriv Loss: 0.044457
+val_loss: 0.004608
+val_linf: 0.019207
+LR: 0.000018
+Epoch time: 16.48 seconds, Average time: 16.79 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [471/500]
+Train L2 Loss: 0.001893
+Train Deriv Loss: 0.044439
+val_loss: 0.004592
+val_linf: 0.019160
+LR: 0.000017
+Epoch time: 16.46 seconds, Average time: 16.79 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [472/500]
+Train L2 Loss: 0.001893
+Train Deriv Loss: 0.044455
+val_loss: 0.004607
+val_linf: 0.019267
+LR: 0.000016
+Epoch time: 16.47 seconds, Average time: 16.79 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [473/500]
+Train L2 Loss: 0.001887
+Train Deriv Loss: 0.044402
+val_loss: 0.004606
+val_linf: 0.019249
+LR: 0.000015
+Epoch time: 16.48 seconds, Average time: 16.79 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [474/500]
+Train L2 Loss: 0.001881
+Train Deriv Loss: 0.044400
+val_loss: 0.004597
+val_linf: 0.019255
+LR: 0.000014
+Epoch time: 16.40 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [475/500]
+Train L2 Loss: 0.001879
+Train Deriv Loss: 0.044384
+val_loss: 0.004616
+val_linf: 0.019275
+LR: 0.000013
+Epoch time: 16.41 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [476/500]
+Train L2 Loss: 0.001875
+Train Deriv Loss: 0.044368
+val_loss: 0.004620
+val_linf: 0.019314
+LR: 0.000012
+Epoch time: 16.68 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [477/500]
+Train L2 Loss: 0.001873
+Train Deriv Loss: 0.044353
+val_loss: 0.004610
+val_linf: 0.019285
+LR: 0.000011
+Epoch time: 16.94 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [478/500]
+Train L2 Loss: 0.001870
+Train Deriv Loss: 0.044349
+val_loss: 0.004618
+val_linf: 0.019252
+LR: 0.000010
+Epoch time: 16.63 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [479/500]
+Train L2 Loss: 0.001867
+Train Deriv Loss: 0.044333
+val_loss: 0.004616
+val_linf: 0.019257
+LR: 0.000009
+Epoch time: 16.42 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [480/500]
+Train L2 Loss: 0.001867
+Train Deriv Loss: 0.044325
+val_loss: 0.004603
+val_linf: 0.019242
+LR: 0.000008
+Epoch time: 16.71 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [481/500]
+Train L2 Loss: 0.001864
+Train Deriv Loss: 0.044309
+val_loss: 0.004608
+val_linf: 0.019295
+LR: 0.000007
+Epoch time: 17.25 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [482/500]
+Train L2 Loss: 0.001862
+Train Deriv Loss: 0.044300
+val_loss: 0.004604
+val_linf: 0.019256
+LR: 0.000007
+Epoch time: 16.47 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [483/500]
+Train L2 Loss: 0.001859
+Train Deriv Loss: 0.044292
+val_loss: 0.004597
+val_linf: 0.019268
+LR: 0.000006
+Epoch time: 16.48 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [484/500]
+Train L2 Loss: 0.001858
+Train Deriv Loss: 0.044286
+val_loss: 0.004608
+val_linf: 0.019269
+LR: 0.000005
+Epoch time: 16.38 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [485/500]
+Train L2 Loss: 0.001857
+Train Deriv Loss: 0.044283
+val_loss: 0.004600
+val_linf: 0.019255
+LR: 0.000005
+Epoch time: 16.71 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [486/500]
+Train L2 Loss: 0.001854
+Train Deriv Loss: 0.044271
+val_loss: 0.004606
+val_linf: 0.019259
+LR: 0.000004
+Epoch time: 16.61 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [487/500]
+Train L2 Loss: 0.001853
+Train Deriv Loss: 0.044264
+val_loss: 0.004602
+val_linf: 0.019276
+LR: 0.000003
+Epoch time: 16.48 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [488/500]
+Train L2 Loss: 0.001852
+Train Deriv Loss: 0.044256
+val_loss: 0.004595
+val_linf: 0.019258
+LR: 0.000003
+Epoch time: 16.84 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [489/500]
+Train L2 Loss: 0.001851
+Train Deriv Loss: 0.044249
+val_loss: 0.004601
+val_linf: 0.019256
+LR: 0.000002
+Epoch time: 17.21 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [490/500]
+Train L2 Loss: 0.001850
+Train Deriv Loss: 0.044245
+val_loss: 0.004602
+val_linf: 0.019265
+LR: 0.000002
+Epoch time: 16.63 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [491/500]
+Train L2 Loss: 0.001849
+Train Deriv Loss: 0.044239
+val_loss: 0.004604
+val_linf: 0.019269
+LR: 0.000002
+Epoch time: 16.48 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [492/500]
+Train L2 Loss: 0.001847
+Train Deriv Loss: 0.044236
+val_loss: 0.004599
+val_linf: 0.019260
+LR: 0.000001
+Epoch time: 17.10 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [493/500]
+Train L2 Loss: 0.001847
+Train Deriv Loss: 0.044233
+val_loss: 0.004604
+val_linf: 0.019255
+LR: 0.000001
+Epoch time: 16.57 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [494/500]
+Train L2 Loss: 0.001846
+Train Deriv Loss: 0.044228
+val_loss: 0.004602
+val_linf: 0.019257
+LR: 0.000001
+Epoch time: 16.94 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [495/500]
+Train L2 Loss: 0.001845
+Train Deriv Loss: 0.044227
+val_loss: 0.004599
+val_linf: 0.019261
+LR: 0.000001
+Epoch time: 16.53 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [496/500]
+Train L2 Loss: 0.001845
+Train Deriv Loss: 0.044224
+val_loss: 0.004601
+val_linf: 0.019260
+LR: 0.000000
+Epoch time: 16.68 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [497/500]
+Train L2 Loss: 0.001845
+Train Deriv Loss: 0.044223
+val_loss: 0.004600
+val_linf: 0.019259
+LR: 0.000000
+Epoch time: 16.54 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [498/500]
+Train L2 Loss: 0.001844
+Train Deriv Loss: 0.044221
+val_loss: 0.004601
+val_linf: 0.019259
+LR: 0.000000
+Epoch time: 16.51 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [499/500]
+Train L2 Loss: 0.001844
+Train Deriv Loss: 0.044220
+val_loss: 0.004601
+val_linf: 0.019259
+LR: 0.000000
+Epoch time: 16.36 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+
+Epoch [500/500]
+Train L2 Loss: 0.001844
+Train Deriv Loss: 0.044220
+val_loss: 0.004601
+val_linf: 0.019259
+LR: 0.000000
+Epoch time: 17.17 seconds, Average time: 16.78 seconds
+================================================================
+
+-> Current best: Epoch 467, Val Score = 0.004589
+
+

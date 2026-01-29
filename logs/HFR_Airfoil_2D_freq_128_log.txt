@@ -1,0 +1,26 @@
+========================================
+2026-01-25 10:46:31.043955--Experiment Parameter Record Table
+========================================
+
+lr                       : 0.001
+epochs                   : 500
+weight_decay             : 0.0001
+n_hidden                 : 128
+n_layers                 : 8
+n_heads                  : 8
+batch_size               : 4
+max_grad_norm            : 0.1
+gpu                      : 0
+downsamplex              : 1
+downsampley              : 1
+mlp_ratio                : 1
+dropout                  : 0.0
+unified_pos              : 0
+ref                      : 8
+freq_num                 : 128
+eval                     : 0
+save_name                : HFR_Airfoil_2D
+data_path                : ./data/airfoil/naca
+ntrain                   : 1000
+
+========================================
