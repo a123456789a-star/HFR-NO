@@ -1,4 +1,4 @@
-<img width="425" height="192" alt="image" src="https://github.com/user-attachments/assets/5b4cee1c-1441-49b0-9148-caf01588e202" /># Code of HFR-NO
+# Code of HFR-NO
 
 ## Environment Installation
 ---
