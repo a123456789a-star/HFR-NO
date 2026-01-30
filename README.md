@@ -21,10 +21,9 @@ Download the dataset from the following links, and then unzip them in a specific
 **Unstructured Mesh Problems**  
 + [Darcy Flow](https://drive.google.com/drive/folders/1jS7YwY1Gs7rGOm1VXrkN_KvTzxGxTw6G?usp=sharing) 
 + [PipeTurbulence](https://drive.google.com/drive/folders/1jS7YwY1Gs7rGOm1VXrkN_KvTzxGxTw6G?usp=sharing) 
-+ [HeatTransfer]((https://drive.google.com/drive/folders/1jS7YwY1Gs7rGOm1VXrkN_KvTzxGxTw6G?usp=sharing) )
-+ [Composites]((https://drive.google.com/drive/folders/1jS7YwY1Gs7rGOm1VXrkN_KvTzxGxTw6G?usp=sharing) )
-+ [BloodFlow]((https://drive.google.com/drive/folders/1jS7YwY1Gs7rGOm1VXrkN_KvTzxGxTw6G?usp=sharing) )
-
++ [HeatTransfer](https://drive.google.com/drive/folders/1jS7YwY1Gs7rGOm1VXrkN_KvTzxGxTw6G?usp=sharing)
++ [Composites](https://drive.google.com/drive/folders/1jS7YwY1Gs7rGOm1VXrkN_KvTzxGxTw6G?usp=sharing)
++ [BloodFlow](https://drive.google.com/drive/folders/1jS7YwY1Gs7rGOm1VXrkN_KvTzxGxTw6G?usp=sharing)
 ## Experiment Running
 ---
 Run the experiments with the following scripts. All dataset paths can be specified via the parameters (data_path).
@@ -35,7 +34,6 @@ Run the experiments with the following scripts. All dataset paths can be specifi
 + Airfoil
   ```
   bash ./exp_scripts/darcy.sh 
-  # The Provided Directory should be like: XXX/Darcy
   ```
 + Plasticity
   ```
